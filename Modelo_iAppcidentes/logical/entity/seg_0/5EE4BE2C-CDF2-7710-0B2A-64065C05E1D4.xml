@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D10D5839-F530-FA8A-94BB-02234F4BB7B4" name="CHECKLIST">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5EE4BE2C-CDF2-7710-0B2A-64065C05E1D4" name="REGION">
 <createdBy>cuent</createdBy>
-<createdTime>2021-08-28 21:10:49 UTC</createdTime>
+<createdTime>2021-08-30 03:24:05 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
 <engineerTo>
 <item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_Checklist" id="8DFF6A0A-4AE7-4651-3BB3-FF479B7DD878">
+<Attribute name="id_región" id="D336B003-952C-1BA2-56E4-C3E707E2A0CA">
 <createdBy>cuent</createdBy>
-<createdTime>2021-08-28 21:11:44 UTC</createdTime>
+<createdTime>2021-08-30 03:24:16 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
 <engineerTo>
 <item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
@@ -27,31 +27,31 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Num_Modificación" id="78FAEB36-195C-3CF0-8D60-987CA779460E">
+<Attribute name="nombre_región" id="11AEBAA4-C0B6-878B-CFF9-AF1D3FFE112B">
 <createdBy>cuent</createdBy>
-<createdTime>2021-08-28 21:12:55 UTC</createdTime>
+<createdTime>2021-08-30 03:25:00 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
 <engineerTo>
 <item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="A0BFCA3C-410E-A812-F014-71E54F290C0E" name="CHECKLIST PK">
+<identifier id="3F43346D-98A2-359A-B715-15FDE06F0B26" name="REGION PK">
 <createdBy>cuent</createdBy>
-<createdTime>2021-08-28 21:12:08 UTC</createdTime>
+<createdTime>2021-08-30 03:26:21 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
 <engineerTo>
 <item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>8DFF6A0A-4AE7-4651-3BB3-FF479B7DD878</attributeRef>
+<attributeRef>D336B003-952C-1BA2-56E4-C3E707E2A0CA</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

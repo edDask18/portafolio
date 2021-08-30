@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="056B81D4-5B51-04A0-687A-F96CFF054041" name="TRABAJADOR">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="056B81D4-5B51-04A0-687A-F96CFF054041" name="TRABAJADORES">
 <createdBy>cuent</createdBy>
 <createdTime>2021-08-28 18:55:03 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Rut_Trabajador" id="20F74614-9AC9-044D-1ABD-2B41161CA33C">
+<Attribute name="rut_trabajador" id="20F74614-9AC9-044D-1ABD-2B41161CA33C">
 <createdBy>cuent</createdBy>
 <createdTime>2021-08-28 19:04:10 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DV" id="5562F209-00E7-7747-537C-78C44D0785AA">
+<Attribute name="dv" id="5562F209-00E7-7747-537C-78C44D0785AA">
 <createdBy>cuent</createdBy>
 <createdTime>2021-08-28 19:05:16 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
@@ -40,7 +40,7 @@
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Nombre" id="68D79C89-7F12-8B4D-86DC-D54D250AB112">
+<Attribute name="nombres" id="68D79C89-7F12-8B4D-86DC-D54D250AB112">
 <createdBy>cuent</createdBy>
 <createdTime>2021-08-28 19:05:37 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
@@ -53,7 +53,20 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Telefono" id="6C4473C1-8371-BB15-C9DF-55EE5005C51A">
+<Attribute name="apellidos" id="B6D927B2-3772-8AF9-381A-C5E60DBF283F">
+<createdBy>cuent</createdBy>
+<createdTime>2021-08-30 00:50:33 UTC</createdTime>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<engineerTo>
+<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="6C4473C1-8371-BB15-C9DF-55EE5005C51A">
 <createdBy>cuent</createdBy>
 <createdTime>2021-08-28 19:05:53 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
@@ -65,7 +78,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Email" id="E8DBE1E6-B25C-68B4-020D-ACCA5180BF0E">
+<Attribute name="email" id="E8DBE1E6-B25C-68B4-020D-ACCA5180BF0E">
 <createdBy>cuent</createdBy>
 <createdTime>2021-08-28 19:06:11 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
@@ -78,7 +91,7 @@
 <dataTypeSize>200</dataTypeSize>
 <ownDataTypeParameters>200,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Cargo" id="7F92D5D3-9266-5D6C-FBB0-6710937DB5F9">
+<Attribute name="cargo" id="7F92D5D3-9266-5D6C-FBB0-6710937DB5F9">
 <createdBy>cuent</createdBy>
 <createdTime>2021-08-28 19:11:34 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
@@ -90,6 +103,45 @@
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>15</dataTypeSize>
 <ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dirección" id="6261159E-7BF0-B690-59AB-81B9CD45EB13">
+<createdBy>cuent</createdBy>
+<createdTime>2021-08-30 03:30:14 UTC</createdTime>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<engineerTo>
+<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numeración" id="21566BEC-46D6-958D-AC29-B7103C0C51F1">
+<createdBy>cuent</createdBy>
+<createdTime>2021-08-30 03:30:28 UTC</createdTime>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<engineerTo>
+<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_comuna" id="441B4EE8-E1B1-A636-7BA7-AC541ECF9604">
+<createdBy>cuent</createdBy>
+<createdTime>2021-08-30 03:31:16 UTC</createdTime>
+<generatorID>AD8E978A-3115-4F20-FA95-992B09D434E5</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<engineerTo>
+<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
+</engineerTo>
+<referedAttribute>982B1E10-40A4-F0B9-2D9D-192F6129034B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

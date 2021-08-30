@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CFC8D4CA-A22C-DC17-C64D-2338DA28C377" name="MULTAS">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CABBADBB-36EF-9432-D7FB-4246907E88C1" name="EVENTUALIDADES">
 <createdBy>cuent</createdBy>
-<createdTime>2021-08-28 22:40:36 UTC</createdTime>
+<createdTime>2021-08-30 01:34:04 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
 <engineerTo>
 <item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
@@ -15,68 +15,54 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_multa" id="9E863C11-2EF4-732E-7BBA-1B10C5151095">
+<Attribute name="id_eventualidad" id="A27E41FE-FB25-AD0C-6CBC-BB5CA756A8CE">
 <createdBy>cuent</createdBy>
-<createdTime>2021-08-30 01:55:25 UTC</createdTime>
+<createdTime>2021-08-30 01:36:16 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
 <engineerTo>
 <item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="monto_multa" id="7ED91D2F-1279-39A8-2089-5DD7988EE2C7">
-<createdBy>cuent</createdBy>
-<createdTime>2021-08-30 01:55:35 UTC</createdTime>
-<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
-<engineerTo>
-<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="estado_multa" id="5E9CDA19-978A-7FCA-56B2-5ADF96DA147E">
-<createdBy>cuent</createdBy>
-<createdTime>2021-08-30 01:55:53 UTC</createdTime>
-<commentInRDBMS><![CDATA[pagada o no]]></commentInRDBMS>
-<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
-<engineerTo>
-<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_eventualidad" id="543A9E01-1067-B811-B4C6-7CA9F21A3363">
-<createdBy>cuent</createdBy>
-<createdTime>2021-08-30 03:07:37 UTC</createdTime>
-<generatorID>54DB8A14-3D12-08ED-D1B5-0E735A53F42F</generatorID>
-<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
-<engineerTo>
-<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
-</engineerTo>
-<referedAttribute>A27E41FE-FB25-AD0C-6CBC-BB5CA756A8CE</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Fecha" id="7417F4A2-11E5-FA68-7FBE-3A0673B0F22C">
+<createdBy>cuent</createdBy>
+<createdTime>2021-08-30 01:44:12 UTC</createdTime>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<engineerTo>
+<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripción" id="5C0DAACB-F278-55B3-5CB5-327449B13B8C">
+<createdBy>cuent</createdBy>
+<createdTime>2021-08-30 01:37:43 UTC</createdTime>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<engineerTo>
+<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="01B2AB47-7EEC-3BA6-14BD-F837F3FA4356" name="MULTAS PK">
+<identifier id="193C6A08-8950-5554-8750-79D9C897A9A6" name="EVENTUALIDADES PK">
 <createdBy>cuent</createdBy>
-<createdTime>2021-08-30 01:55:31 UTC</createdTime>
+<createdTime>2021-08-30 01:38:12 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
 <engineerTo>
 <item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>9E863C11-2EF4-732E-7BBA-1B10C5151095</attributeRef>
+<attributeRef>A27E41FE-FB25-AD0C-6CBC-BB5CA756A8CE</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
