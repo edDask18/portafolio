@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2ECAE8F9-A2F1-5486-5F3C-91F3B4E2162B" name="ACTIVIDAD">
+<createdBy>cuent</createdBy>
+<createdTime>2021-08-28 19:39:34 UTC</createdTime>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<engineerTo>
+<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Actividad" id="88C789A8-47F7-6977-386D-08B8A34EC057">
+<createdBy>cuent</createdBy>
+<createdTime>2021-08-28 20:20:57 UTC</createdTime>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<engineerTo>
+<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha" id="10A64B04-1EED-6E97-52EF-5D3C653C1CE6">
+<createdBy>cuent</createdBy>
+<createdTime>2021-08-28 20:21:54 UTC</createdTime>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<engineerTo>
+<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Hora" id="CCE6BEBB-12C3-CCB6-7B47-A65BC4CE8BAC">
+<createdBy>cuent</createdBy>
+<createdTime>2021-08-28 20:22:13 UTC</createdTime>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<engineerTo>
+<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E8FA2964-43A4-9FB8-6E36-C464703D57AC" name="ACTIVIDAD PK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-08-28 20:21:07 UTC</createdTime>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<engineerTo>
+<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>88C789A8-47F7-6977-386D-08B8A34EC057</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

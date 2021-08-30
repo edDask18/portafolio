@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5F1B0DC2-664F-5D0A-0EC7-0D87F3733D9B" name="ACTIVIDAD">
+<createdBy>cuent</createdBy>
+<createdTime>2021-08-28 23:13:50 UTC</createdTime>
+<generatorID>2ECAE8F9-A2F1-5486-5F3C-91F3B4E2162B</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Actividad" id="74B68368-B2E7-C16B-3E3B-79ADAF2B4772">
+<createdBy>cuent</createdBy>
+<createdTime>2021-08-28 23:13:50 UTC</createdTime>
+<generatorID>88C789A8-47F7-6977-386D-08B8A34EC057</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha" id="51818D6C-09C1-9E93-5CF8-F893F36B921C">
+<createdBy>cuent</createdBy>
+<createdTime>2021-08-28 23:13:50 UTC</createdTime>
+<generatorID>10A64B04-1EED-6E97-52EF-5D3C653C1CE6</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Hora" id="AF2DD346-9895-7D7B-28D7-8BC651730FFC">
+<createdBy>cuent</createdBy>
+<createdTime>2021-08-28 23:13:50 UTC</createdTime>
+<generatorID>CCE6BEBB-12C3-CCB6-7B47-A65BC4CE8BAC</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6DC77E35-3DC1-9340-9111-880871790918" name="ACTIVIDAD_PK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-08-28 23:13:50 UTC</createdTime>
+<generatorID>E8FA2964-43A4-9FB8-6E36-C464703D57AC</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74B68368-B2E7-C16B-3E3B-79ADAF2B4772"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

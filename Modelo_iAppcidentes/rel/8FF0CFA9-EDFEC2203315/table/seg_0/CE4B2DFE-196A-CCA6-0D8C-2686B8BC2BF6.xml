@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CE4B2DFE-196A-CCA6-0D8C-2686B8BC2BF6" name="CAPACITACION">
+<createdBy>cuent</createdBy>
+<createdTime>2021-08-28 23:13:50 UTC</createdTime>
+<generatorID>09BB831F-9CE3-39C7-77DD-3D4A0A3C83F6</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Actividad" id="CE553EE1-84E3-A8D4-C9B8-0492972899EA">
+<createdBy>cuent</createdBy>
+<createdTime>2021-08-28 23:13:50 UTC</createdTime>
+<generatorID>88C789A8-47F7-6977-386D-08B8A34EC057</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1ABDBD76-6414-8B64-185D-C2E075562C82" referredColumn="74B68368-B2E7-C16B-3E3B-79ADAF2B4772"/>
+</associations>
+</Column>
+<Column name="Extra" id="4428FC20-0E97-74E7-731C-6E91EB4CB4A7">
+<createdBy>cuent</createdBy>
+<createdTime>2021-08-28 23:13:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Indica si es una capacitación extra o no]]></commentInRDBMS>
+<generatorID>0E8D6175-AD56-D994-6184-8F613F71A55D</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="679BE4DB-2D16-BF8C-B24F-CA08496E1174" name="CAPACITACION_PK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-08-28 23:13:50 UTC</createdTime>
+<generatorID>E8FA2964-43A4-9FB8-6E36-C464703D57AC</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE553EE1-84E3-A8D4-C9B8-0492972899EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="82A91D74-9679-5EB3-74D1-4E8670B116F2" name="CAPACITACION_ACTIVIDAD_FK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-08-28 23:13:50 UTC</createdTime>
+<generatorID>D6B7C5D1-13D8-E5EC-41A9-42F0F4A7502A</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE553EE1-84E3-A8D4-C9B8-0492972899EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

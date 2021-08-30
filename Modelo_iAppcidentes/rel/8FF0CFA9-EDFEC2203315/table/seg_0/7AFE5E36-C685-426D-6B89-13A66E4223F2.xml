@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7AFE5E36-C685-426D-6B89-13A66E4223F2" name="gestiona">
+<createdBy>cuent</createdBy>
+<createdTime>2021-08-28 23:13:50 UTC</createdTime>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ACTIVIDAD_ID_Actividad" id="0DED6C72-0594-DCE8-2E6F-8F860B701E61">
+<createdBy>cuent</createdBy>
+<createdTime>2021-08-28 23:13:50 UTC</createdTime>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6622E1D7-23F4-AD78-4112-65059B64FD7D" referredColumn="74B68368-B2E7-C16B-3E3B-79ADAF2B4772"/>
+</associations>
+</Column>
+<Column name="TRABAJADOR_Rut_Trabajador" id="3D25E1A6-E6CD-F8F5-09FA-2607E495F307">
+<createdBy>cuent</createdBy>
+<createdTime>2021-08-28 23:13:50 UTC</createdTime>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3F70283D-A10C-DA3D-DAB9-FBFA837EB239" referredColumn="E42970EF-C4B0-A990-8FB7-73294AC62ADA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="13436C1D-6C1F-007E-3D12-A013F2F36D70" name="gestiona_PK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-08-28 23:13:50 UTC</createdTime>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0DED6C72-0594-DCE8-2E6F-8F860B701E61"/>
+<colUsage columnID="3D25E1A6-E6CD-F8F5-09FA-2607E495F307"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BBC8555F-FAFA-E390-B000-4FA32EFC6306" name="gestiona_ACTIVIDAD_FK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-08-28 23:13:50 UTC</createdTime>
+<generatorID>0BE890E3-625E-66F8-C471-B09B7D4B1F07</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0DED6C72-0594-DCE8-2E6F-8F860B701E61"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC88B01D-0EE8-EF66-A5F8-BDD2B74681DA" name="gestiona_TRABAJADOR_FK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-08-28 23:13:50 UTC</createdTime>
+<generatorID>0BE890E3-625E-66F8-C471-B09B7D4B1F07</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D25E1A6-E6CD-F8F5-09FA-2607E495F307"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="23150A82-BB68-FA99-A6C8-82EA9C91A31A" name="ACCIDENTES">
+<createdBy>cuent</createdBy>
+<createdTime>2021-08-28 23:13:50 UTC</createdTime>
+<generatorID>59E525B7-E6AB-13C2-63A2-CF87C897C208</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+</Table>

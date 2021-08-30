@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C5406263-944C-4CD8-B684-75B69AE74E17" name="INFORME_REVISIÓN">
+<createdBy>cuent</createdBy>
+<createdTime>2021-08-28 21:39:10 UTC</createdTime>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<engineerTo>
+<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Informe" id="CB7A1821-5492-228C-9182-4D41005A5766">
+<createdBy>cuent</createdBy>
+<createdTime>2021-08-28 21:39:20 UTC</createdTime>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<engineerTo>
+<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Situación" id="C251236D-EBFA-0EA3-9622-9CAB2F237E09">
+<createdBy>cuent</createdBy>
+<createdTime>2021-08-28 21:39:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[Situación encontrada en terreno]]></commentInRDBMS>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<engineerTo>
+<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Propuestas" id="036F985A-4E7B-C1F2-B264-989869FCE307">
+<createdBy>cuent</createdBy>
+<createdTime>2021-08-28 21:40:23 UTC</createdTime>
+<commentInRDBMS><![CDATA[Propuestas de mejora en caso de incumplimiento]]></commentInRDBMS>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<engineerTo>
+<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1ECF5EB4-D4EE-2DB7-5381-6E2D162E6F94" name="INFORME PK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-08-28 21:39:43 UTC</createdTime>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<engineerTo>
+<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CB7A1821-5492-228C-9182-4D41005A5766</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="BA89E873-9E43-3960-D25B-55E90AEC1F81" mainViewID="89832C7A-3041-61DC-2431-7A5CE531F487">
+<createdBy>cuent</createdBy>
+<createdTime>2021-08-28 18:34:25 UTC</createdTime>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

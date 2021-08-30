@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="acuerda" directorySegmentName="seg_0" id="04DDB579-0961-E701-C942-9FB9BBD0C029">
+<createdBy>cuent</createdBy>
+<createdTime>2021-08-28 20:20:15 UTC</createdTime>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<engineerTo>
+<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
+</engineerTo>
+<sourcePk>7BD8D00F-DF17-34E5-2F92-C65A567012EF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>462DCE00-7FE6-E326-5901-1D79B8870D70</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>D3436AB4-82DC-F378-6201-F1B6190BE73B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
