@@ -27,30 +27,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="fecha" id="10A64B04-1EED-6E97-52EF-5D3C653C1CE6">
-<createdBy>cuent</createdBy>
-<createdTime>2021-08-28 20:21:54 UTC</createdTime>
-<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
-<engineerTo>
-<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="hora" id="CCE6BEBB-12C3-CCB6-7B47-A65BC4CE8BAC">
-<createdBy>cuent</createdBy>
-<createdTime>2021-08-28 20:22:13 UTC</createdTime>
-<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
-<engineerTo>
-<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT014</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="observaciones" id="97473A77-D276-130F-4EB6-79D04217948A">
 <createdBy>cuent</createdBy>
 <createdTime>2021-08-30 01:08:59 UTC</createdTime>

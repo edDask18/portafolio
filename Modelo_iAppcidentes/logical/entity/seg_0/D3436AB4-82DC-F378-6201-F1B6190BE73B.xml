@@ -53,6 +53,19 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="fecha_fin" id="74263EC1-8F0F-1D4C-F95A-9653D2E26D89">
+<createdBy>cuent</createdBy>
+<createdTime>2021-08-30 14:42:53 UTC</createdTime>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<engineerTo>
+<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="monto_mensualidad" id="E58B4FA7-5DA4-D10A-D188-073950D1ED97">
 <createdBy>cuent</createdBy>
 <createdTime>2021-08-28 21:57:02 UTC</createdTime>
