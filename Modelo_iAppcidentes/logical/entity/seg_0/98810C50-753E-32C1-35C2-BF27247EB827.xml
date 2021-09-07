@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="98810C50-753E-32C1-35C2-BF27247EB827" name="ACCIDENTADOS">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 20:12:20 UTC</createdTime>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<engineerTo>
+<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="rut_accidentado" id="A15DBFBD-4E82-1963-D571-CDD2D1D5632C">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 20:12:35 UTC</createdTime>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<engineerTo>
+<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dv_accidentado" id="4A099EB3-CA3A-3B3D-E1FB-1E8068A6A699">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 20:12:54 UTC</createdTime>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<engineerTo>
+<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_accidentado" id="4EC4B8B8-0320-D5BA-353B-7917F2A7826F">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 20:13:10 UTC</createdTime>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<engineerTo>
+<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellidos_accidentado" id="3A841BC6-21CA-53B6-6684-12F38F0A4CC7">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 20:13:27 UTC</createdTime>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<engineerTo>
+<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E3EF4BBA-BCCA-73FE-CA7C-80C70B89ECFD" name="ACCIDENTADOS PK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 20:12:52 UTC</createdTime>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<engineerTo>
+<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A15DBFBD-4E82-1963-D571-CDD2D1D5632C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
