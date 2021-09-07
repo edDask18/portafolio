@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C44D7D31-0F5C-C0BE-FD4F-996B79B6C0BB" name="ACCIDENTES">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<generatorID>8E056E5F-557F-2534-7CBE-F080858B974F</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_eventualidad" id="A272AE9B-3613-58AD-5A51-9F60D70DBAB7">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<generatorID>A27E41FE-FB25-AD0C-6CBC-BB5CA756A8CE</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A61F79B5-6760-8366-DA8E-B2D755FAB93A" referredColumn="ED114F6F-BC6D-A8FA-734D-BD56C5B30395"/>
+</associations>
+</Column>
+<Column name="daño_personal" id="B09E33CB-FB83-04CA-E586-CCF7E3BA58FD">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<generatorID>8C021C01-3EFE-4DD7-3843-1DEE951E2643</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cant_personal" id="2DAC29B2-9316-C127-1BB1-BC9DBC2C0CCA">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<generatorID>D1334993-E076-CB59-0F1B-099E3BDBDC8D</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="daño_estructural" id="49BC847C-9ACF-59A0-4054-506B3AED498F">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<generatorID>3B0D0ED8-11D1-EA38-A992-49290688FE52</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="daño_maquinaria" id="95937B77-102F-6228-F65D-7357AACFD288">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<generatorID>ABA28065-DA29-83A8-4A4A-492B593FFA3A</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D84420FD-3A5A-081F-7C1E-E2591EF1C081" name="ACCIDENTES_PK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<generatorID>193C6A08-8950-5554-8750-79D9C897A9A6</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A272AE9B-3613-58AD-5A51-9F60D70DBAB7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="15AFC1D4-C43B-23DA-A072-17DEDC67FA56" name="ACCIDENTES_EVENTUALIDADES_FK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<generatorID>B106CF9F-3C22-C162-41E8-2147BA72D040</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A272AE9B-3613-58AD-5A51-9F60D70DBAB7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

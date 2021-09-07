@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8653CDE1-EE5B-3DEB-F384-4B00675A3EF7" containerWithKeyObject="D2B02E95-E507-B2CD-1F17-369630C48DA0" localFKIndex="7D114B4F-ABA1-0320-05D4-D4C1E948C742" name="CHECKLISTS_CONTRATOS_FK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<generatorID>87475AC4-A799-60F5-505F-499729F00CF3</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<referredTableLongName>CONTRATOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6272D379-BB36-A80A-2C62-9AD70D74B16A</referredTableID>
+<keyObject>94EE4BDB-1F6F-E3F9-2C45-5550B1878CA2</keyObject>
+<referredKeyID>94EE4BDB-1F6F-E3F9-2C45-5550B1878CA2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_contrato</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

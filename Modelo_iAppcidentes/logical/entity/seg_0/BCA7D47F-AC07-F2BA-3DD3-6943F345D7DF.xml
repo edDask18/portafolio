@@ -40,10 +40,10 @@
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_región" id="A6A2CF13-D10D-C6A3-4895-C596CF5C65EA">
+<Attribute name="id_región" id="5C9B0F8A-28D3-698B-2218-3323EC1C84E9">
 <createdBy>cuent</createdBy>
-<createdTime>2021-08-30 03:27:53 UTC</createdTime>
-<generatorID>1557FDFC-B806-249E-17F0-FBE7F17AAEED</generatorID>
+<createdTime>2021-09-07 20:59:04 UTC</createdTime>
+<generatorID>A2A7BA15-1F14-F990-86C3-AE753B06AF33</generatorID>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
 <engineerTo>
 <item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>

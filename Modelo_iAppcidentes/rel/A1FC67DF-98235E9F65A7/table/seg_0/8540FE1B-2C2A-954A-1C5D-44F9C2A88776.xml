@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8540FE1B-2C2A-954A-1C5D-44F9C2A88776" name="FISCALIZACIONES">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<generatorID>1F03B7E1-522B-F533-5693-823D79B4C1FD</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_eventualidad" id="787A8752-A6CB-62D6-63E1-D0EBD3216C54">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<generatorID>A27E41FE-FB25-AD0C-6CBC-BB5CA756A8CE</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A3493098-0950-CD7D-4F20-FDA9775FC96C" referredColumn="ED114F6F-BC6D-A8FA-734D-BD56C5B30395"/>
+</associations>
+</Column>
+<Column name="entidad_fiscalizadora" id="4B601509-D63C-32A1-0760-9AAA159E72B8">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<generatorID>4A69E911-8EAA-9535-D2F8-2506EAE01151</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fiscalizador" id="11E85588-C1D8-4D6D-FB8B-3188D31EC80D">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<generatorID>6D1E833C-814A-51D5-A41B-386724D8275D</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="canal_comunicación" id="ABC44668-3679-F369-9642-BC457AD05FE3">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[Canal o via de comunicación (conversaciones, correspondencia, diligencias, juicios, etc.)]]></commentInRDBMS>
+<generatorID>ED7A8BFD-D062-0F49-6966-C426E834F0AC</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="638A16E6-AB3E-2F3F-47A3-E57A2FF34AAB" name="FISCALIZACIONES_PK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<generatorID>193C6A08-8950-5554-8750-79D9C897A9A6</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="787A8752-A6CB-62D6-63E1-D0EBD3216C54"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="775775F8-4A9A-DDE5-D7A7-B38EB96DD866" name="FISCALIZACIONES_EVENTUALIDADES_FK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<generatorID>56EE9C00-C2AE-3A28-1A5E-32830AD3C08C</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="787A8752-A6CB-62D6-63E1-D0EBD3216C54"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C7C51661-7ABF-412B-A324-9AB1936EE473" containerWithKeyObject="1DB0CA01-19BB-B6EF-830D-277436ECC27D" localFKIndex="9ADB46DC-C926-C00F-8068-83B00C651CF1" name="CHECKLISTS_SERVICIOS_SERVICIOS_FK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<generatorID>F9C89E2E-EB89-45CF-52B4-185B548BFB25</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<referredTableLongName>SERVICIOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7E09E64F-04D5-38E1-8AB0-E9483CDAB685</referredTableID>
+<keyObject>9F4D5DF4-210C-31D1-AFE6-982CE99DB243</keyObject>
+<referredKeyID>9F4D5DF4-210C-31D1-AFE6-982CE99DB243</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_servicio</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

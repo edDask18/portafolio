@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E6D5E3BD-2ABB-C7E3-0C4C-793A7DAC85D2" name="REVISIÓN">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<generatorID>7A2554C5-0264-AADA-C1DE-63BDFCA5A827</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_servicio" id="6DD10E2A-05F3-8CC4-E9C4-509BF98F6D0F">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<generatorID>88C789A8-47F7-6977-386D-08B8A34EC057</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="66B38D9C-33EC-AB10-D37B-FF729ED0FCA9" referredColumn="D10D0585-7E1E-E734-0653-9FC6FEF3CD2D"/>
+</associations>
+</Column>
+<Column name="documentación" id="62A141BB-026E-5530-C45F-12C4A259BBBF">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[revisión de documentación]]></commentInRDBMS>
+<generatorID>E1064E89-0466-896C-A751-991242411317</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cond_seguridad" id="C5828761-12B4-F16D-BFF2-CE77ECF2C81A">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[condiciones de seguridad en terreno]]></commentInRDBMS>
+<generatorID>CEC90E9C-08F2-A2FA-BBFF-7B3754DC2797</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0DA0F13D-FF5D-901E-E7F1-216F618012BE" name="REVISIÓN_PK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<generatorID>E8FA2964-43A4-9FB8-6E36-C464703D57AC</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6DD10E2A-05F3-8CC4-E9C4-509BF98F6D0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE958856-0E62-BB26-6F69-AFAABA1D3CA9" name="REVISIÓN_SERVICIOS_FK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<generatorID>9D325F25-97A5-FB88-5932-FF24ADDB5354</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6DD10E2A-05F3-8CC4-E9C4-509BF98F6D0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

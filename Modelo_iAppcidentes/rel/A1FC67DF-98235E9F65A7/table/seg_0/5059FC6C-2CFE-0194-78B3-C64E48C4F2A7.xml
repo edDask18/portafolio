@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5059FC6C-2CFE-0194-78B3-C64E48C4F2A7" name="CAPACITACIONES">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<generatorID>09BB831F-9CE3-39C7-77DD-3D4A0A3C83F6</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_servicio" id="50667DC9-6C90-80B6-0C35-115386D4BFE9">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<generatorID>88C789A8-47F7-6977-386D-08B8A34EC057</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F1271D96-D13C-0692-98AE-8D8905233D20" referredColumn="D10D0585-7E1E-E734-0653-9FC6FEF3CD2D"/>
+</associations>
+</Column>
+<Column name="extra" id="3B97616E-274A-FEE4-7693-E38B40077ED3">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[Indica si es una capacitación extra o no]]></commentInRDBMS>
+<generatorID>0E8D6175-AD56-D994-6184-8F613F71A55D</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cant_participantes" id="8A8E54A9-FEF8-208F-0F9E-31AAE7F950BD">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[Trabajadores capacitados reales]]></commentInRDBMS>
+<generatorID>0B55B99A-DCF8-033A-889B-B681147E836B</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MATERIALES_id_material" id="CEE7D711-AD56-6525-ADA6-A05D79862A67">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<generatorID>C0C0534A-EE96-F84B-046D-5F958D620B3C</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="56732697-5EB3-178F-1B88-DDE86BC3EB9F" referredColumn="C9CF84B7-327C-21C7-C2DA-C175F4A3E12A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="067B4EA2-3FFC-1DBE-A72B-7AEB14B22EDF" name="CAPACITACIONES_PK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<generatorID>E8FA2964-43A4-9FB8-6E36-C464703D57AC</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50667DC9-6C90-80B6-0C35-115386D4BFE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="76E751F1-16F0-5457-1FD7-C1E6B4597946" name="CAPACITACIONES_SERVICIOS_FK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<generatorID>D6B7C5D1-13D8-E5EC-41A9-42F0F4A7502A</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50667DC9-6C90-80B6-0C35-115386D4BFE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="061B2769-9E2C-AE93-0BDF-55EA7CB672FE" name="CAPACITACIONES_MATERIALES_FK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<generatorID>458BD1CB-238B-58AC-762C-F1ACD604DB4F</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CEE7D711-AD56-6525-ADA6-A05D79862A67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

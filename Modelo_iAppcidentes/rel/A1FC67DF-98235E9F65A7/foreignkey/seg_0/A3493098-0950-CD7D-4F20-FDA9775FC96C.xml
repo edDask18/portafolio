@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A3493098-0950-CD7D-4F20-FDA9775FC96C" containerWithKeyObject="8540FE1B-2C2A-954A-1C5D-44F9C2A88776" localFKIndex="775775F8-4A9A-DDE5-D7A7-B38EB96DD866" name="FISCALIZACIONES_EVENTUALIDADES_FK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<generatorID>56EE9C00-C2AE-3A28-1A5E-32830AD3C08C</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<referredTableLongName>EVENTUALIDADES</referredTableLongName>
+<arc>4FE133EA-31B7-3393-0E1B-2D715C5FC409</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>991F8AAD-8526-8F47-820D-418D25AF3C98</referredTableID>
+<keyObject>16D87FEC-E65E-724F-E719-D633FF0A199A</keyObject>
+<referredKeyID>16D87FEC-E65E-724F-E719-D633FF0A199A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_eventualidad</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

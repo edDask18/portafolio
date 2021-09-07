@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B0884D77-BB10-B9C9-4A42-79C7C7F782AF" name="ACCIDENTES_ACCIDENTADOS">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<generatorID>7C16FA24-7D7E-47F5-1D6B-15D9F87F189D</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_accidentes_accidentados" id="039E3268-C323-F499-F2C6-F088926DC592">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<generatorID>3A0509F6-6D63-626E-FC3E-DCA8B7459CCF</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACCIDENTES_id_eventualidad" id="FC43E1C0-EF80-5A3B-3344-7FF647873E40">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<generatorID>5B1C0875-6029-9918-02DA-C6B515D42590</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F6E10D38-C1BF-2C99-B54D-93A750424305" referredColumn="A272AE9B-3613-58AD-5A51-9F60D70DBAB7"/>
+</associations>
+</Column>
+<Column name="ACCIDENTADOS_rut_accidentado" id="A684F970-6F66-35F7-6C85-71DD61844FAD">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<generatorID>9D077283-A5F9-0487-7AF6-2C359CB3B40C</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1FE01643-08FB-82B8-FE23-4143042776CB" referredColumn="B8D2748C-16A0-2608-3D94-9ED64C5809FE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5C65239D-CEA1-AE40-6105-7BB1A887F9FC" name="ACCIDENTES_ACCIDENTADOS_PK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<generatorID>9E4B94F6-05CC-FCC7-51A5-73843CC839BE</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="039E3268-C323-F499-F2C6-F088926DC592"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B4FFFC76-452A-F079-C40E-3C1B9FB912C2" name="ACCIDENTES_ACCIDENTADOS_ACCIDENTES_FK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<generatorID>6ABF6039-8193-CFD3-0AFA-BE62B0E40441</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC43E1C0-EF80-5A3B-3344-7FF647873E40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BC5B4FE5-93E2-9D02-A741-E335778B278A" name="ACCIDENTES_ACCIDENTADOS_ACCIDENTADOS_FK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<generatorID>374A763B-F919-FF0E-7CBD-886526238682</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A684F970-6F66-35F7-6C85-71DD61844FAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

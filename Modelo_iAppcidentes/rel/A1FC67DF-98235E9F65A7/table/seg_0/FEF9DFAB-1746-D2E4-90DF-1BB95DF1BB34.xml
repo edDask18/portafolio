@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FEF9DFAB-1746-D2E4-90DF-1BB95DF1BB34" name="CAPACITACIONES_ASISTENTES">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<generatorID>B130FCCF-5E2B-6F4A-D220-A63D75165B16</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_capac_asist" id="B091B944-281D-308B-147C-0004609D0140">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<generatorID>95982688-7BDC-CF74-4081-219C155D770F</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAPACITACIONES_id_servicio" id="9AB768AB-114A-B346-700A-18B239C1ABE6">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<generatorID>4BCF7D3F-6299-A4C1-9F03-D927BCD5C17F</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="528178B0-4DC2-9D6B-1A4D-B80E6ADD6CFC" referredColumn="50667DC9-6C90-80B6-0C35-115386D4BFE9"/>
+</associations>
+</Column>
+<Column name="ASISTENTES_rut_asistente" id="4770720D-4DC9-AD81-7538-3304C354329D">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<generatorID>9D957E7A-EBCA-04BA-320B-9602FAF42723</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="91A72781-21C9-C6E1-2630-227040F9E1AB" referredColumn="DD42D1EE-AEE4-8CB1-1E79-2C4F7DB5A7BE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A83A07E7-2931-8D5C-0552-96CE32976FE6" name="CAPACITACIONES_ASISTENTES_PK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<generatorID>AB834F7A-21CF-42D4-AE8C-A212336F6182</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B091B944-281D-308B-147C-0004609D0140"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E8C39F3-816D-57A5-F1A2-8003E2C0FE80" name="CAPACITACIONES_ASISTENTES_CAPACITACIONES_FK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<generatorID>94586957-C78B-C647-D44A-6E976A62B5CA</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9AB768AB-114A-B346-700A-18B239C1ABE6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C195DE9-8BCF-84E2-9EEF-773040CF911C" name="CAPACITACIONES_ASISTENTES_ASISTENTES_FK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<generatorID>3F86DB26-A4E8-7CB4-B3B7-89E526ADFE22</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4770720D-4DC9-AD81-7538-3304C354329D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

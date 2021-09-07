@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="39DA0547-45DE-4099-13F2-F51892B2F766" name="EVENTUALIDADES_ASESORIAS">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<generatorID>378D3392-250C-2FDA-680A-29A721246575</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_event_ases" id="3CB7788E-2439-0C86-2D3E-4B634A4815E0">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<generatorID>913D9A51-F416-31A8-4B20-1E7B6ADA891F</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ASESORIAS_id_servicio" id="8863AD9D-75C8-D1D5-7459-EEDEF0D7FFA4">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<generatorID>371020A1-0CF0-F24B-D7D1-331B115ECB97</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A8A03806-4EAA-76FA-6A49-C2CDE8E599F0" referredColumn="AB0A96A7-C3EB-F82C-7CCD-E7A408648B0B"/>
+</associations>
+</Column>
+<Column name="EVENTUALIDADES_id_eventualidad" id="4A36F186-E9FA-246A-8E74-6782E6FCDA86">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<generatorID>12FADA08-4CFE-1C21-7109-13F7C2DBAB33</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1480DFE8-9F3E-E581-2F32-CCD2C2DA8F02" referredColumn="ED114F6F-BC6D-A8FA-734D-BD56C5B30395"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2FF5DE4B-72CF-C20D-1F46-59A3203E867B" name="EVENTUALIDADES_ASESORIAS_PK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<generatorID>E9BACF1A-D74A-0FF0-5DF9-8073837C08BA</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3CB7788E-2439-0C86-2D3E-4B634A4815E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="34281DF4-1BE1-F9ED-E6F4-12EA9F2CAF91" name="EVENTUALIDADES_ASESORIAS_ASESORIAS_FK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<generatorID>0B4A87FB-52E1-7860-2963-A3BFBE846E78</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8863AD9D-75C8-D1D5-7459-EEDEF0D7FFA4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8FF68FD4-ACBF-2159-3878-136CD5FFE278" name="EVENTUALIDADES_ASESORIAS_EVENTUALIDADES_FK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<generatorID>CF203762-24FA-F42E-BE7C-68AAB451E543</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A36F186-E9FA-246A-8E74-6782E6FCDA86"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

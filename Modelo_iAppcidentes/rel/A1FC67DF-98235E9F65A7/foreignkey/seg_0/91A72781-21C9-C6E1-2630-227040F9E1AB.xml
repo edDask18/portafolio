@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="91A72781-21C9-C6E1-2630-227040F9E1AB" containerWithKeyObject="FEF9DFAB-1746-D2E4-90DF-1BB95DF1BB34" localFKIndex="0C195DE9-8BCF-84E2-9EEF-773040CF911C" name="CAPACITACIONES_ASISTENTES_ASISTENTES_FK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 21:10:36 UTC</createdTime>
+<generatorID>3F86DB26-A4E8-7CB4-B3B7-89E526ADFE22</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<referredTableLongName>ASISTENTES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9D111131-C54E-5912-70A5-995D1DEB95F2</referredTableID>
+<keyObject>A8305566-7AC1-5811-04BD-9F5F7F86A182</keyObject>
+<referredKeyID>A8305566-7AC1-5811-04BD-9F5F7F86A182</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>rut_asistente</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
