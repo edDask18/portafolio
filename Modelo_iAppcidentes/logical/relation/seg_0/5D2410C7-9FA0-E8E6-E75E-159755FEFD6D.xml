@@ -1,18 +1,19 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REGISTRAv1" directorySegmentName="seg_0" id="C4EA73CC-BF6D-7166-7A93-D7FA44C0D141">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_20" directorySegmentName="seg_0" id="5D2410C7-9FA0-E8E6-E75E-159755FEFD6D">
 <createdBy>cuent</createdBy>
-<createdTime>2021-08-30 00:47:43 UTC</createdTime>
+<createdTime>2021-09-07 19:26:53 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
 <engineerTo>
 <item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
 </engineerTo>
+<sourcePk>14C00FF9-62FF-B3EB-3B2B-8F9581B51000</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
-<sourceCardinality>*</sourceCardinality>
-<sourceEntity>09BB831F-9CE3-39C7-77DD-3D4A0A3C83F6</sourceEntity>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BCA7D47F-AC07-F2BA-3DD3-6943F345D7DF</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>14967FE6-AE82-04A1-7DE0-BC1F0177E153</targetEntity>
+<targetEntity>C52962A9-6CAD-7F46-4BA8-C3E386947C76</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

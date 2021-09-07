@@ -1,18 +1,19 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RESUELVE" directorySegmentName="seg_0" id="0AAE4A1B-BF24-FEF8-611B-BDEC4ECDE09F">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_25" directorySegmentName="seg_0" id="7806F158-1C6D-0018-BE0D-8827BC142E52">
 <createdBy>cuent</createdBy>
-<createdTime>2021-08-30 01:48:56 UTC</createdTime>
+<createdTime>2021-09-07 19:54:46 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
 <engineerTo>
 <item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
 </engineerTo>
+<sourcePk>01B2AB47-7EEC-3BA6-14BD-F837F3FA4356</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
-<sourceCardinality>*</sourceCardinality>
-<sourceEntity>31422A14-F684-1611-CFBE-C3F30573B2D0</sourceEntity>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CFC8D4CA-A22C-DC17-C64D-2338DA28C377</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>CABBADBB-36EF-9432-D7FB-4246907E88C1</targetEntity>
+<targetEntity>B8699037-FD77-716D-3425-18DBA3FB3864</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

@@ -45,5 +45,19 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_material" id="C0C0534A-EE96-F84B-046D-5F958D620B3C">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 19:56:14 UTC</createdTime>
+<generatorID>458BD1CB-238B-58AC-762C-F1ACD604DB4F</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<engineerTo>
+<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
+</engineerTo>
+<referedAttribute>B7008BCE-3F20-1FB5-9A06-A102B6FCA133</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 </Entity>

@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="462DCE00-7FE6-E326-5901-1D79B8870D70" name="CLIENTES">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0C874B79-0FFA-A934-02C0-2D8FCB388608" name="TRABAJADORES">
 <createdBy>cuent</createdBy>
-<createdTime>2021-08-28 19:15:38 UTC</createdTime>
+<createdTime>2021-09-06 19:36:48 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
 <engineerTo>
 <item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="rut_cliente" id="FAACF207-DD62-8E6A-FAA1-A4BEBFED1093">
+<Attribute name="rut_trabajador" id="A7C38EEA-E32C-0AE1-7A53-D2D53AC849D2">
 <createdBy>cuent</createdBy>
-<createdTime>2021-08-28 19:15:38 UTC</createdTime>
+<createdTime>2021-09-07 19:07:11 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
 <engineerTo>
 <item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
@@ -27,9 +27,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="dv" id="19D07EC1-996E-10BA-2038-847D3855BC13">
+<Attribute name="dv" id="B91C1D71-1F9B-643E-821D-AC3B6F27417B">
 <createdBy>cuent</createdBy>
-<createdTime>2021-08-28 19:15:38 UTC</createdTime>
+<createdTime>2021-09-07 19:07:15 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
 <engineerTo>
 <item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
@@ -40,9 +40,9 @@
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="razon_social" id="115F7922-C51A-484E-80A9-48AB69022876">
+<Attribute name="nombres" id="BA4EAC41-DF70-0FBC-DD6B-8762DF61C3D7">
 <createdBy>cuent</createdBy>
-<createdTime>2021-08-28 19:15:38 UTC</createdTime>
+<createdTime>2021-09-06 19:51:06 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
 <engineerTo>
 <item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
@@ -53,9 +53,9 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="rubro" id="4B77F099-8A6D-10A6-AD33-C3047778817F">
+<Attribute name="apellidos" id="E008E897-2A76-6B8C-3B1F-80B6CD8464E6">
 <createdBy>cuent</createdBy>
-<createdTime>2021-08-28 21:55:53 UTC</createdTime>
+<createdTime>2021-09-06 19:51:09 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
 <engineerTo>
 <item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
@@ -63,12 +63,25 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>150</dataTypeSize>
-<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="telefono" id="4D66A3EB-E109-99C9-E0A7-E83100F778BB">
+<Attribute name="cargo" id="E361C190-9342-2C49-32E8-1453CA94818E">
 <createdBy>cuent</createdBy>
-<createdTime>2021-08-28 19:15:38 UTC</createdTime>
+<createdTime>2021-09-06 19:51:21 UTC</createdTime>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<engineerTo>
+<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="F7C8C579-D68E-DCC4-3E1D-F8E9B8C5699B">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 19:07:17 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
 <engineerTo>
 <item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
@@ -78,9 +91,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="email" id="1DA91E91-2766-7141-A522-8FB368A8B90A">
+<Attribute name="email" id="3F2F590B-AD53-70F1-4D2F-DD87FC936299">
 <createdBy>cuent</createdBy>
-<createdTime>2021-08-28 19:15:38 UTC</createdTime>
+<createdTime>2021-09-07 19:07:22 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
 <engineerTo>
 <item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
@@ -91,57 +104,18 @@
 <dataTypeSize>200</dataTypeSize>
 <ownDataTypeParameters>200,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="direccion" id="020F7B5F-5829-1438-A4B9-91817A68DDE1">
-<createdBy>cuent</createdBy>
-<createdTime>2021-08-30 03:17:12 UTC</createdTime>
-<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
-<engineerTo>
-<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="numeración" id="6AE36A3B-243F-936A-FD38-CFE2C520367E">
-<createdBy>cuent</createdBy>
-<createdTime>2021-08-30 03:17:55 UTC</createdTime>
-<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
-<engineerTo>
-<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_comuna" id="40E0EE85-997B-98CF-EFC4-1DFA719CB559">
-<createdBy>cuent</createdBy>
-<createdTime>2021-08-30 03:28:40 UTC</createdTime>
-<generatorID>CAE28358-B91C-67A6-0FB8-958AC8D3115A</generatorID>
-<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
-<engineerTo>
-<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
-</engineerTo>
-<referedAttribute>982B1E10-40A4-F0B9-2D9D-192F6129034B</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="7BD8D00F-DF17-34E5-2F92-C65A567012EF" name="PROFESIONALES PK">
+<identifier id="852CE65E-5E1F-8C16-7204-34337D4F39F7" name="TRABAJADORES PK">
 <createdBy>cuent</createdBy>
-<createdTime>2021-08-28 19:15:38 UTC</createdTime>
+<createdTime>2021-09-07 19:07:32 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
 <engineerTo>
 <item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>FAACF207-DD62-8E6A-FAA1-A4BEBFED1093</attributeRef>
+<attributeRef>A7C38EEA-E32C-0AE1-7A53-D2D53AC849D2</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

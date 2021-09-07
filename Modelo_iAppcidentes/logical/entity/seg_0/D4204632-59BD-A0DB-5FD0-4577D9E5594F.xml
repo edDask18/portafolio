@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CFC8D4CA-A22C-DC17-C64D-2338DA28C377" name="MULTAS">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D4204632-59BD-A0DB-5FD0-4577D9E5594F" name="CONTRATOS_PAGOS">
 <createdBy>cuent</createdBy>
-<createdTime>2021-08-28 22:40:36 UTC</createdTime>
+<createdTime>2021-09-07 19:49:32 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
 <engineerTo>
 <item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_multa" id="9E863C11-2EF4-732E-7BBA-1B10C5151095">
+<Attribute name="id_contratos_pagos" id="2BE8F945-674C-D603-4AC5-C8138E05F69D">
 <createdBy>cuent</createdBy>
-<createdTime>2021-08-30 01:55:25 UTC</createdTime>
+<createdTime>2021-09-07 19:49:48 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
 <engineerTo>
 <item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
@@ -27,44 +27,46 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="monto_multa" id="7ED91D2F-1279-39A8-2089-5DD7988EE2C7">
+<Attribute name="id_pago" id="C3AE4841-756D-922E-A743-4E85E67309B6">
 <createdBy>cuent</createdBy>
-<createdTime>2021-08-30 01:55:35 UTC</createdTime>
+<createdTime>2021-09-07 19:50:19 UTC</createdTime>
+<generatorID>3B1A3B8E-AC4F-9441-D9B9-BCED59188C90</generatorID>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
 <engineerTo>
 <item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
 </engineerTo>
+<referedAttribute>634694F3-ECED-6A91-9512-76BDD359D2FD</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="estado_multa" id="5E9CDA19-978A-7FCA-56B2-5ADF96DA147E">
+<Attribute name="id_contrato" id="676D97B0-9FBA-DF20-7C2C-72F269A135A7">
 <createdBy>cuent</createdBy>
-<createdTime>2021-08-30 01:55:53 UTC</createdTime>
-<commentInRDBMS><![CDATA[pagada o no]]></commentInRDBMS>
+<createdTime>2021-09-07 19:50:26 UTC</createdTime>
+<generatorID>E533D2BA-1767-7B87-82C1-353F1108228D</generatorID>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
 <engineerTo>
 <item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
 </engineerTo>
+<referedAttribute>1BE39578-2DE4-D9BE-D7FC-FC96C06E4B43</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="01B2AB47-7EEC-3BA6-14BD-F837F3FA4356" name="MULTAS PK">
+<identifier id="FDBD115B-618B-49B0-E6EF-376B52B7D23D" name="CONTRATOS_PAGOS PK">
 <createdBy>cuent</createdBy>
-<createdTime>2021-08-30 01:55:31 UTC</createdTime>
+<createdTime>2021-09-07 19:49:58 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
 <engineerTo>
 <item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>9E863C11-2EF4-732E-7BBA-1B10C5151095</attributeRef>
+<attributeRef>2BE8F945-674C-D603-4AC5-C8138E05F69D</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -27,20 +27,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="rut_cliente" id="0A3885D7-0669-34D9-F82B-CD5ACA7C474E">
-<createdBy>cuent</createdBy>
-<createdTime>2021-08-28 20:20:15 UTC</createdTime>
-<generatorID>04DDB579-0961-E701-C942-9FB9BBD0C029</generatorID>
-<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
-<engineerTo>
-<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
-</engineerTo>
-<referedAttribute>FAACF207-DD62-8E6A-FAA1-A4BEBFED1093</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="fecha_inicio" id="52F5283F-4B49-26FA-5472-8683177A4605">
 <createdBy>cuent</createdBy>
 <createdTime>2021-08-28 21:07:48 UTC</createdTime>
@@ -103,6 +89,20 @@
 <logicalDatatype>LOGDT006</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut_cliente" id="0E818168-01E1-4870-3E87-064766AB855F">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-07 19:28:01 UTC</createdTime>
+<generatorID>22EA6263-7293-7A8D-F376-967F7C7CA84A</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<engineerTo>
+<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
+</engineerTo>
+<referedAttribute>E5F1A2D6-9F47-CEAE-6FA4-CBFDFDC438F6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

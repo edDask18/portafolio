@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CFC8D4CA-A22C-DC17-C64D-2338DA28C377" name="MULTAS">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8CC2C5D0-94D6-EA4E-A5E5-591B7C90D271" name="TRABAJADORES_CHECKLISTS">
 <createdBy>cuent</createdBy>
-<createdTime>2021-08-28 22:40:36 UTC</createdTime>
+<createdTime>2021-09-07 19:00:02 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
 <engineerTo>
 <item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_multa" id="9E863C11-2EF4-732E-7BBA-1B10C5151095">
+<Attribute name="id_trabaj_check" id="F55597CB-9299-6CDF-99C2-EEB3E1D1D5FF">
 <createdBy>cuent</createdBy>
-<createdTime>2021-08-30 01:55:25 UTC</createdTime>
+<createdTime>2021-09-07 19:50:39 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
 <engineerTo>
 <item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
@@ -27,44 +27,46 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="monto_multa" id="7ED91D2F-1279-39A8-2089-5DD7988EE2C7">
+<Attribute name="rut_trabajador" id="CB0303A5-AD78-15A7-890C-57F3F67EC90C">
 <createdBy>cuent</createdBy>
-<createdTime>2021-08-30 01:55:35 UTC</createdTime>
+<createdTime>2021-09-07 19:16:10 UTC</createdTime>
+<generatorID>F5A3EA30-D527-300F-CB06-680EFB5BC90C</generatorID>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
 <engineerTo>
 <item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
 </engineerTo>
+<referedAttribute>A7C38EEA-E32C-0AE1-7A53-D2D53AC849D2</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="estado_multa" id="5E9CDA19-978A-7FCA-56B2-5ADF96DA147E">
+<Attribute name="id_checklist" id="B1D17C54-7389-860A-1C71-C7A77B27F0E5">
 <createdBy>cuent</createdBy>
-<createdTime>2021-08-30 01:55:53 UTC</createdTime>
-<commentInRDBMS><![CDATA[pagada o no]]></commentInRDBMS>
+<createdTime>2021-09-07 19:16:28 UTC</createdTime>
+<generatorID>CF4C4C61-C428-A773-8EE5-A6BC62649DD4</generatorID>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
 <engineerTo>
 <item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
 </engineerTo>
+<referedAttribute>8DFF6A0A-4AE7-4651-3BB3-FF479B7DD878</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="01B2AB47-7EEC-3BA6-14BD-F837F3FA4356" name="MULTAS PK">
+<identifier id="756F6FBA-4850-2DB4-40C7-D9156F8C5390" name="TRABAJADORES_CHECKLISTS PK">
 <createdBy>cuent</createdBy>
-<createdTime>2021-08-30 01:55:31 UTC</createdTime>
+<createdTime>2021-09-07 19:50:59 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
 <engineerTo>
 <item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>9E863C11-2EF4-732E-7BBA-1B10C5151095</attributeRef>
+<attributeRef>F55597CB-9299-6CDF-99C2-EEB3E1D1D5FF</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
