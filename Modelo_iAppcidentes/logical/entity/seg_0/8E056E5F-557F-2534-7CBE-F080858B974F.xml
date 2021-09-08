@@ -3,9 +3,6 @@
 <createdBy>cuent</createdBy>
 <createdTime>2021-08-30 01:46:00 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
-<engineerTo>
-<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -20,35 +17,16 @@
 <createdBy>cuent</createdBy>
 <createdTime>2021-08-30 01:46:09 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
-<engineerTo>
-<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT006</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cant_personal" id="D1334993-E076-CB59-0F1B-099E3BDBDC8D">
-<createdBy>cuent</createdBy>
-<createdTime>2021-08-30 01:46:35 UTC</createdTime>
-<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
-<engineerTo>
-<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="daño_estructural" id="3B0D0ED8-11D1-EA38-A992-49290688FE52">
 <createdBy>cuent</createdBy>
 <createdTime>2021-08-30 01:46:55 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
-<engineerTo>
-<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT006</logicalDatatype>
@@ -59,9 +37,6 @@
 <createdBy>cuent</createdBy>
 <createdTime>2021-08-30 01:47:08 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
-<engineerTo>
-<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT006</logicalDatatype>

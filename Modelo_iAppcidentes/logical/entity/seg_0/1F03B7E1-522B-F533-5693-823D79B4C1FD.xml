@@ -3,9 +3,6 @@
 <createdBy>cuent</createdBy>
 <createdTime>2021-08-30 01:35:45 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
-<engineerTo>
-<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -16,46 +13,27 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="entidad_fiscalizadora" id="4A69E911-8EAA-9535-D2F8-2506EAE01151">
-<createdBy>cuent</createdBy>
-<createdTime>2021-08-30 01:49:40 UTC</createdTime>
-<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
-<engineerTo>
-<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="fiscalizador" id="6D1E833C-814A-51D5-A41B-386724D8275D">
-<createdBy>cuent</createdBy>
-<createdTime>2021-08-30 01:43:37 UTC</createdTime>
-<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
-<engineerTo>
-<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="canal_comunicación" id="ED7A8BFD-D062-0F49-6966-C426E834F0AC">
 <createdBy>cuent</createdBy>
 <createdTime>2021-08-30 14:39:51 UTC</createdTime>
 <commentInRDBMS><![CDATA[Canal o via de comunicación (conversaciones, correspondencia, diligencias, juicios, etc.)]]></commentInRDBMS>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
-<engineerTo>
-<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_fiscalizador" id="8E49F8FC-FABE-CE4B-C220-51083FBB03F5">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-08 16:59:07 UTC</createdTime>
+<generatorID>73C525C6-3E80-6D18-4C0F-C67F58D25E05</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<referedAttribute>55CB77B4-9F80-2CB3-FBE7-29B24BB2127E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 </Entity>

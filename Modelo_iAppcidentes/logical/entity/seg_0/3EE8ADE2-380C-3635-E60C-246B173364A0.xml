@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CABBADBB-36EF-9432-D7FB-4246907E88C1" name="EVENTUALIDADES">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3EE8ADE2-380C-3635-E60C-246B173364A0" name="FISCALIZADOR">
 <createdBy>cuent</createdBy>
-<createdTime>2021-08-30 01:34:04 UTC</createdTime>
+<createdTime>2021-09-08 16:54:03 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -12,54 +12,55 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_eventualidad" id="A27E41FE-FB25-AD0C-6CBC-BB5CA756A8CE">
+<Attribute name="id_fiscalizador" id="55CB77B4-9F80-2CB3-FBE7-29B24BB2127E">
 <createdBy>cuent</createdBy>
-<createdTime>2021-08-30 01:36:16 UTC</createdTime>
+<createdTime>2021-09-08 16:54:29 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Fecha" id="7417F4A2-11E5-FA68-7FBE-3A0673B0F22C">
+<Attribute name="nombres" id="BA98372A-EF5F-640A-8290-DECA1D3927F8">
 <createdBy>cuent</createdBy>
-<createdTime>2021-08-30 01:44:12 UTC</createdTime>
+<createdTime>2021-09-08 16:54:39 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellidos" id="C3B510AD-AF7F-A7DF-0E0C-316BD7243C22">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-08 16:56:44 UTC</createdTime>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_org" id="6E10B1AF-7C50-8899-77C5-0353035F3CB3">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-08 17:07:05 UTC</createdTime>
+<generatorID>C536FFC8-5A89-A74E-A36C-BA824A01FCCA</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<referedAttribute>142D209D-95E6-3ABD-3CB9-1D38ECD1B6EB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="descripción" id="5C0DAACB-F278-55B3-5CB5-327449B13B8C">
-<createdBy>cuent</createdBy>
-<createdTime>2021-08-30 01:37:43 UTC</createdTime>
-<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>200</dataTypeSize>
-<ownDataTypeParameters>200,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="estado_eventualidad" id="9E07D48E-65E0-ED22-148C-8E84EB4B06AA">
-<createdBy>cuent</createdBy>
-<createdTime>2021-08-30 14:39:06 UTC</createdTime>
-<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="193C6A08-8950-5554-8750-79D9C897A9A6" name="EVENTUALIDADES PK">
+<identifier id="D431CABF-3F03-67EF-EE14-012363CBA60B" name="FISCALIZADOR PK">
 <createdBy>cuent</createdBy>
-<createdTime>2021-08-30 01:38:12 UTC</createdTime>
+<createdTime>2021-09-08 16:56:31 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>A27E41FE-FB25-AD0C-6CBC-BB5CA756A8CE</attributeRef>
+<attributeRef>55CB77B4-9F80-2CB3-FBE7-29B24BB2127E</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

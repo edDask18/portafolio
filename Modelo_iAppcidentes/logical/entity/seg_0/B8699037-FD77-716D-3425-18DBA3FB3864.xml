@@ -3,9 +3,6 @@
 <createdBy>cuent</createdBy>
 <createdTime>2021-09-07 19:53:51 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
-<engineerTo>
-<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -19,9 +16,6 @@
 <createdBy>cuent</createdBy>
 <createdTime>2021-09-07 19:54:05 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
-<engineerTo>
-<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -32,11 +26,9 @@
 <createdTime>2021-09-07 19:54:40 UTC</createdTime>
 <generatorID>8EA391F7-995D-E317-34A8-26FAF8F3D7AD</generatorID>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
-<engineerTo>
-<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
-</engineerTo>
 <referedAttribute>A27E41FE-FB25-AD0C-6CBC-BB5CA756A8CE</referedAttribute>
-<use>0</use>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_multa" id="C11B0821-B93F-DE59-4427-98837516C59E">
@@ -44,9 +36,6 @@
 <createdTime>2021-09-07 19:54:46 UTC</createdTime>
 <generatorID>7806F158-1C6D-0018-BE0D-8827BC142E52</generatorID>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
-<engineerTo>
-<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
-</engineerTo>
 <referedAttribute>9E863C11-2EF4-732E-7BBA-1B10C5151095</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -59,9 +48,6 @@
 <createdBy>cuent</createdBy>
 <createdTime>2021-09-07 19:54:12 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
-<engineerTo>
-<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
-</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>CBBA83EB-E746-5B90-E50E-D1D1E2DAE0B3</attributeRef>
