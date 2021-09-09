@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AF652A00-C7E4-0082-AD6C-62D444AEAB73" name="CONTRATOS_PAGOS">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-09 01:56:15 UTC</createdTime>
+<generatorID>D4204632-59BD-A0DB-5FD0-4577D9E5594F</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_contratos_pagos" id="9B100BAE-28AF-8687-6BE1-261DDBEC439F">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-09 01:56:15 UTC</createdTime>
+<generatorID>2BE8F945-674C-D603-4AC5-C8138E05F69D</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAGOS_id_pago" id="B95336C5-DAC7-2FFC-3384-9C96C046153D">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-09 01:56:15 UTC</createdTime>
+<generatorID>C3AE4841-756D-922E-A743-4E85E67309B6</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7ABC1993-44C0-2403-DC71-134C4C9B1227" referredColumn="94E5E68F-4C31-CA0D-F1E4-66E2716D3058"/>
+</associations>
+</Column>
+<Column name="CONTRATOS_id_contrato" id="2AACAB8F-544E-088F-203B-485D11398F2C">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-09 01:56:15 UTC</createdTime>
+<generatorID>676D97B0-9FBA-DF20-7C2C-72F269A135A7</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA859132-EE75-F0DE-0F6B-259680543960" referredColumn="EFED6279-F4EA-3376-B2A0-79CC07602E0B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DFF86809-F81A-75C6-DC83-B1904FBE3A88" name="CONTRATOS_PAGOS_PK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-09 01:56:15 UTC</createdTime>
+<generatorID>FDBD115B-618B-49B0-E6EF-376B52B7D23D</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B100BAE-28AF-8687-6BE1-261DDBEC439F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8BD7EE5C-FB1A-BFC8-289E-B87A1266579A" name="CONTRATOS_PAGOS_PAGOS_FK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-09 01:56:15 UTC</createdTime>
+<generatorID>3B1A3B8E-AC4F-9441-D9B9-BCED59188C90</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B95336C5-DAC7-2FFC-3384-9C96C046153D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="35FBFD71-1D79-A847-9AB2-DE83BCCCFCA8" name="CONTRATOS_PAGOS_CONTRATOS_FK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-09 01:56:15 UTC</createdTime>
+<generatorID>E533D2BA-1767-7B87-82C1-353F1108228D</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2AACAB8F-544E-088F-203B-485D11398F2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

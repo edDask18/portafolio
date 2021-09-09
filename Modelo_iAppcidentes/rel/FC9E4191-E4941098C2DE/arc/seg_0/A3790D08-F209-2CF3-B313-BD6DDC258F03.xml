@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="A3790D08-F209-2CF3-B313-BD6DDC258F03" name="FKArc_1">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-09 01:56:15 UTC</createdTime>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>B6490AA4-4B75-172A-5CF6-C02B642E151D</table>
+<fkeys>
+<fkeyID>D109B150-8041-4C0A-CD3F-5A135BD09FFB</fkeyID>
+<fkeyID>3533FB91-2B0A-EC56-8E47-3F48B0D29FF9</fkeyID>
+</fkeys>
+</FKArc>

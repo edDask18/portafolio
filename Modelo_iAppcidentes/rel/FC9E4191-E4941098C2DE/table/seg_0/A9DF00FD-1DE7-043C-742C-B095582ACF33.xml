@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A9DF00FD-1DE7-043C-742C-B095582ACF33" name="TRABAJADORES_CHECKLISTS">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-09 01:56:15 UTC</createdTime>
+<generatorID>8CC2C5D0-94D6-EA4E-A5E5-591B7C90D271</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_trabaj_check" id="395B4D61-48DD-3B39-AEFB-22E5CD0D05C3">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-09 01:56:15 UTC</createdTime>
+<generatorID>F55597CB-9299-6CDF-99C2-EEB3E1D1D5FF</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRABAJADORES_rut_trabajador" id="BDDCEB62-EA48-CD54-3D91-7B61025027B4">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-09 01:56:15 UTC</createdTime>
+<generatorID>CB0303A5-AD78-15A7-890C-57F3F67EC90C</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C6402829-67A7-3A8B-29FF-CDCB8BDAE987" referredColumn="ACA85A84-56B1-1E38-B050-E7CAFB2B69BB"/>
+</associations>
+</Column>
+<Column name="CHECKLISTS_id_checklist" id="09530B3B-945B-614A-6570-9216B0228F86">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-09 01:56:15 UTC</createdTime>
+<generatorID>B1D17C54-7389-860A-1C71-C7A77B27F0E5</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="82AD454E-E31D-FDA1-9C0B-0D40A7EBCAB3" referredColumn="3E12693B-B88D-448D-5A6C-F4AED798925B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E87F5175-E74D-22E9-4470-E79C42A814D8" name="TRABAJADORES_CHECKLISTS_PK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-09 01:56:15 UTC</createdTime>
+<generatorID>756F6FBA-4850-2DB4-40C7-D9156F8C5390</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="395B4D61-48DD-3B39-AEFB-22E5CD0D05C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="40322F39-409B-1514-C361-AB25A15194A8" name="TRABAJADORES_CHECKLISTS_TRABAJADORES_FK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-09 01:56:15 UTC</createdTime>
+<generatorID>F5A3EA30-D527-300F-CB06-680EFB5BC90C</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BDDCEB62-EA48-CD54-3D91-7B61025027B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0CDA0C63-BF0A-5971-4AF3-8C8B925B8A2E" name="TRABAJADORES_CHECKLISTS_CHECKLISTS_FK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-09 01:56:15 UTC</createdTime>
+<generatorID>CF4C4C61-C428-A773-8EE5-A6BC62649DD4</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09530B3B-945B-614A-6570-9216B0228F86"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

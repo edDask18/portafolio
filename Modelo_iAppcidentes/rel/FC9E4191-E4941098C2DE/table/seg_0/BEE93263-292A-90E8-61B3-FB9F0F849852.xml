@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BEE93263-292A-90E8-61B3-FB9F0F849852" name="CHECKLISTS_SERVICIOS">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-09 01:56:15 UTC</createdTime>
+<generatorID>40C783DE-00C2-1D2D-B509-30E6023B14B2</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_check_serv" id="81C04EF9-5148-AB29-443D-E1808E2BE848">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-09 01:56:15 UTC</createdTime>
+<generatorID>A17281C6-0060-3B9F-676A-4C4E191EB0F5</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CHECKLISTS_id_checklist" id="4F9D51C5-F250-A119-1D0F-45209D40FAC6">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-09 01:56:15 UTC</createdTime>
+<generatorID>B023CB9B-8D00-815F-5FD9-5232189F9A8F</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="925CAB74-B5BC-24F6-EB41-742668F349FA" referredColumn="3E12693B-B88D-448D-5A6C-F4AED798925B"/>
+</associations>
+</Column>
+<Column name="SERVICIOS_id_servicio" id="CC99492C-F266-BDBA-AC7C-CF46244331E1">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-09 01:56:15 UTC</createdTime>
+<generatorID>3BBEE230-9407-14D5-DD85-2244E28AE9CF</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="532D85D5-35AF-F8AC-0AC3-4561DB86F163" referredColumn="E1A4B1C2-A307-01DD-4D5C-1D7397CC6B00"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1F251604-63AD-194C-9B73-5583714EC4E4" name="CHECKLISTS_SERVICIOS_PK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-09 01:56:15 UTC</createdTime>
+<generatorID>F46479D0-3E66-A49C-B5FD-9797EFE369D8</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81C04EF9-5148-AB29-443D-E1808E2BE848"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB18276A-68AD-137C-210E-D84727BDACA8" name="CHECKLISTS_SERVICIOS_CHECKLISTS_FK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-09 01:56:15 UTC</createdTime>
+<generatorID>283E8FB5-F34D-5358-FBBE-2CEBD6C30990</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F9D51C5-F250-A119-1D0F-45209D40FAC6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AC6DDEE9-A107-623A-7A1A-6390F0AC2DFF" name="CHECKLISTS_SERVICIOS_SERVICIOS_FK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-09 01:56:15 UTC</createdTime>
+<generatorID>F9C89E2E-EB89-45CF-52B4-185B548BFB25</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC99492C-F266-BDBA-AC7C-CF46244331E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

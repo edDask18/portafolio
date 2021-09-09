@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D4A50FE7-3AA2-ED87-4C4A-49D09941A83E" containerWithKeyObject="5BC93F54-6CD1-1BB1-6208-1E73C85807D3" localFKIndex="E249EA2C-EEA9-5B67-72EC-2FA5042502CA" name="EVENTUALIDADES_ASESORIAS_EVENTUALIDADES_FK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-09 01:56:15 UTC</createdTime>
+<generatorID>CF203762-24FA-F42E-BE7C-68AAB451E543</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<referredTableLongName>EVENTUALIDADES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B6490AA4-4B75-172A-5CF6-C02B642E151D</referredTableID>
+<keyObject>5828C5FA-C5A7-FADA-C667-BF66D41EF757</keyObject>
+<referredKeyID>5828C5FA-C5A7-FADA-C667-BF66D41EF757</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_eventualidad</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EBED11E3-6061-7AD3-9C1B-4FA9AA461372" containerWithKeyObject="68C70B5F-0E93-4A47-B832-50D1E77B7597" localFKIndex="4984C8C2-1997-C4F5-B0DE-275E866F724B" name="ACCIDENTES_ACCIDENTADOS_ACCIDENTADOS_FK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-09 01:56:15 UTC</createdTime>
+<generatorID>374A763B-F919-FF0E-7CBD-886526238682</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<referredTableLongName>ACCIDENTADOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7F7207C1-9BDF-8F09-FFF3-8BF2A574FB3A</referredTableID>
+<keyObject>32A352AB-10DD-1410-8C1B-0FD690D1B47C</keyObject>
+<referredKeyID>32A352AB-10DD-1410-8C1B-0FD690D1B47C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>rut_accidentado</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

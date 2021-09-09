@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A81FB6DF-FC2B-3759-EB00-2C69A67AED39" containerWithKeyObject="60183F71-F5AB-CFA7-4F5E-B856DFD3C9A9" localFKIndex="555050FD-1415-2779-D2FF-597A94B5EF44" name="FISCALIZADOR_ORG_FISCALIZACIÓN_FK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-09 01:56:15 UTC</createdTime>
+<generatorID>C536FFC8-5A89-A74E-A36C-BA824A01FCCA</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<referredTableLongName>ORG_FISCALIZACIÓN</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7EC2161B-4930-9E36-FF2D-3712338ED2A6</referredTableID>
+<keyObject>EE1603DF-1B5E-9D03-B11C-BA2BEC3AE932</keyObject>
+<referredKeyID>EE1603DF-1B5E-9D03-B11C-BA2BEC3AE932</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_org</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

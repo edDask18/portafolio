@@ -24,6 +24,17 @@
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="obser_fiscalizador" id="7F93476A-4E05-30FE-BF00-21CAD414CA21">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-08 18:01:56 UTC</createdTime>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="id_fiscalizador" id="8E49F8FC-FABE-CE4B-C220-51083FBB03F5">
 <createdBy>cuent</createdBy>
 <createdTime>2021-09-08 16:59:07 UTC</createdTime>
