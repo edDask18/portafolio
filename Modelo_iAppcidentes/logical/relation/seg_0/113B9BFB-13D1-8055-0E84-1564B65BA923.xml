@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_41" directorySegmentName="seg_0" id="113B9BFB-13D1-8055-0E84-1564B65BA923">
+<createdBy>Cetecom</createdBy>
+<createdTime>2021-09-09 21:18:09 UTC</createdTime>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<sourcePk>852CE65E-5E1F-8C16-7204-34337D4F39F7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0C874B79-0FFA-A934-02C0-2D8FCB388608</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D10D5839-F530-FA8A-94BB-02234F4BB7B4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

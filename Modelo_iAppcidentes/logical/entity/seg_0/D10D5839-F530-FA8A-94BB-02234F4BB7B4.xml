@@ -30,51 +30,15 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="fecha_inicio_tarea" id="D614FDBF-BB36-BB33-850F-6B095C8146C9">
+<Attribute name="fecha_modif" id="D614FDBF-BB36-BB33-850F-6B095C8146C9">
 <createdBy>cuent</createdBy>
 <createdTime>2021-08-30 14:46:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ultima modificación]]></commentInRDBMS>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="hora_inicio_tarea" id="ECE0663F-80EC-6475-B140-132D61794283">
-<createdBy>cuent</createdBy>
-<createdTime>2021-08-30 14:47:05 UTC</createdTime>
-<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT014</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="fecha_fin_tarea" id="0833AE54-446F-BF8A-8B90-BAA14D9D388A">
-<createdBy>cuent</createdBy>
-<createdTime>2021-08-30 14:46:52 UTC</createdTime>
-<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="hora_fin_tarea" id="CE4DF55C-7BEF-E262-CBFE-DB1544EBDFB5">
-<createdBy>cuent</createdBy>
-<createdTime>2021-08-30 14:47:23 UTC</createdTime>
-<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT014</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="estado_tarea" id="C30CD351-7850-16EE-7FA3-DE7FD5B69E3E">
-<createdBy>cuent</createdBy>
-<createdTime>2021-08-30 14:53:23 UTC</createdTime>
-<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_contrato" id="ABC9E727-F6F6-E191-5BD8-0CB73CA8A107">
 <createdBy>cuent</createdBy>
@@ -82,6 +46,17 @@
 <generatorID>87475AC4-A799-60F5-505F-499729F00CF3</generatorID>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
 <referedAttribute>1BE39578-2DE4-D9BE-D7FC-FC96C06E4B43</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rut_trabajador" id="3BC595EE-B676-6C94-C2DB-8BC5B078F140">
+<createdBy>Cetecom</createdBy>
+<createdTime>2021-09-09 21:18:09 UTC</createdTime>
+<generatorID>113B9BFB-13D1-8055-0E84-1564B65BA923</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<referedAttribute>A7C38EEA-E32C-0AE1-7A53-D2D53AC849D2</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>

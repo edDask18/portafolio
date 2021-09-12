@@ -3,9 +3,6 @@
 <createdBy>cuent</createdBy>
 <createdTime>2021-08-28 18:55:45 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
-<engineerTo>
-<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -19,9 +16,6 @@
 <createdBy>cuent</createdBy>
 <createdTime>2021-08-28 20:19:21 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
-<engineerTo>
-<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -31,9 +25,6 @@
 <createdBy>cuent</createdBy>
 <createdTime>2021-08-28 21:07:48 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
-<engineerTo>
-<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
@@ -43,9 +34,6 @@
 <createdBy>cuent</createdBy>
 <createdTime>2021-08-30 14:42:53 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
-<engineerTo>
-<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -56,9 +44,6 @@
 <createdBy>cuent</createdBy>
 <createdTime>2021-08-28 21:57:02 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
-<engineerTo>
-<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -68,9 +53,6 @@
 <createdBy>cuent</createdBy>
 <createdTime>2021-08-30 00:45:26 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
-<engineerTo>
-<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
@@ -81,23 +63,26 @@
 <createdTime>2021-08-30 00:45:47 UTC</createdTime>
 <commentInRDBMS><![CDATA[vigente o suspendido]]></commentInRDBMS>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
-<engineerTo>
-<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT006</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="cant_cuotas" id="551A5360-FF29-D89C-2CF1-229288BF30DC">
+<createdBy>Cetecom</createdBy>
+<createdTime>2021-09-09 19:55:53 UTC</createdTime>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="rut_cliente" id="0E818168-01E1-4870-3E87-064766AB855F">
 <createdBy>cuent</createdBy>
 <createdTime>2021-09-07 19:28:01 UTC</createdTime>
 <generatorID>22EA6263-7293-7A8D-F376-967F7C7CA84A</generatorID>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
-<engineerTo>
-<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
-</engineerTo>
 <referedAttribute>E5F1A2D6-9F47-CEAE-6FA4-CBFDFDC438F6</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -110,10 +95,6 @@
 <createdBy>cuent</createdBy>
 <createdTime>2021-08-28 20:19:37 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
-<engineerTo>
-<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="false"/>
-</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>1BE39578-2DE4-D9BE-D7FC-FC96C06E4B43</attributeRef>

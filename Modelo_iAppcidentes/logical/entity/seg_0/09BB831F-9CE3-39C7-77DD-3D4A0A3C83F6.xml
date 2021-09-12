@@ -35,16 +35,16 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_material" id="C0C0534A-EE96-F84B-046D-5F958D620B3C">
-<createdBy>cuent</createdBy>
-<createdTime>2021-09-07 19:56:14 UTC</createdTime>
-<generatorID>458BD1CB-238B-58AC-762C-F1ACD604DB4F</generatorID>
+<Attribute name="materiales" id="32A324BA-5597-D54E-6116-A7D513D70410">
+<createdBy>Cetecom</createdBy>
+<createdTime>2021-09-09 21:23:35 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
-<referedAttribute>B7008BCE-3F20-1FB5-9A06-A102B6FCA133</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 </Entity>
