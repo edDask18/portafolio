@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ECF98227-0ADC-ED91-B826-F99139510638" name="FISCALIZACIONES">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-14 20:56:55 UTC</createdTime>
+<generatorID>1F03B7E1-522B-F533-5693-823D79B4C1FD</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_eventualidad" id="54F08389-3330-6444-D60B-137EBEEB81B3">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-14 20:56:55 UTC</createdTime>
+<generatorID>A27E41FE-FB25-AD0C-6CBC-BB5CA756A8CE</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="41B5E686-6B05-241E-1ACF-6107743520C5" referredColumn="FAEBD3F0-CD85-5C36-CD42-07699D6CBC1D"/>
+</associations>
+</Column>
+<Column name="canal_comunicación" id="2AEDD7D7-D2C4-F89A-E545-5411ED82FFB3">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-14 20:56:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[Canal o via de comunicación (conversaciones, correspondencia, diligencias, juicios, etc.)]]></commentInRDBMS>
+<generatorID>ED7A8BFD-D062-0F49-6966-C426E834F0AC</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="obser_fiscalizador" id="18E4C896-7E11-A33C-D69C-5A5C9770FC1C">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-14 20:56:55 UTC</createdTime>
+<generatorID>7F93476A-4E05-30FE-BF00-21CAD414CA21</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FISCALIZADOR_id_fiscalizador" id="64900D07-F518-FEA6-689E-6778143B5F3C">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-14 20:56:55 UTC</createdTime>
+<generatorID>8E49F8FC-FABE-CE4B-C220-51083FBB03F5</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="36853765-834E-C45F-F839-6A0D68145C79" referredColumn="8D7AE749-6938-E29C-5E43-51CF655AD4BD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E1180E60-F79D-7D75-F5BF-D0C6B4578C18" name="FISCALIZACIONES_PK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-14 20:56:55 UTC</createdTime>
+<generatorID>193C6A08-8950-5554-8750-79D9C897A9A6</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54F08389-3330-6444-D60B-137EBEEB81B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C7892160-BB05-171F-E1CF-36DF5A2784C4" name="FISCALIZACIONES_EVENTUALIDADES_FK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-14 20:56:55 UTC</createdTime>
+<generatorID>56EE9C00-C2AE-3A28-1A5E-32830AD3C08C</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54F08389-3330-6444-D60B-137EBEEB81B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A8F4489-714B-ACC5-E752-78750B033C70" name="FISCALIZACIONES_FISCALIZADOR_FK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-14 20:56:55 UTC</createdTime>
+<generatorID>73C525C6-3E80-6D18-4C0F-C67F58D25E05</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64900D07-F518-FEA6-689E-6778143B5F3C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

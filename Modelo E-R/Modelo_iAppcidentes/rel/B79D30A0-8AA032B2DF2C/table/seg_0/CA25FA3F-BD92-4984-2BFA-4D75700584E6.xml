@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CA25FA3F-BD92-4984-2BFA-4D75700584E6" name="CONTRATOS">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-14 20:56:55 UTC</createdTime>
+<generatorID>D3436AB4-82DC-F378-6201-F1B6190BE73B</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_contrato" id="EA081CD6-63EB-663C-5D1B-8E824B8AA5F2">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-14 20:56:55 UTC</createdTime>
+<generatorID>1BE39578-2DE4-D9BE-D7FC-FC96C06E4B43</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_inicio" id="95685C21-4A90-B719-C3EE-2EAAEFE8EDB2">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-14 20:56:55 UTC</createdTime>
+<generatorID>52F5283F-4B49-26FA-5472-8683177A4605</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_fin" id="D4065CF9-2D8B-C3D5-5B6A-BF9C91EB9D33">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-14 20:56:55 UTC</createdTime>
+<generatorID>74263EC1-8F0F-1D4C-F95A-9653D2E26D89</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="monto_mensualidad" id="E23E16CF-1585-0AC5-5BCE-DDD94DE16BD8">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-14 20:56:55 UTC</createdTime>
+<generatorID>E58B4FA7-5DA4-D10A-D188-073950D1ED97</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_de_pago" id="6CCA86E6-DF34-C9F3-789E-D753934AB7AE">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-14 20:56:55 UTC</createdTime>
+<generatorID>F6EECE1B-A85E-3DD4-4DC0-383042E58BB0</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado_servicio" id="E61A559C-B781-5626-3327-0EB99CDC6F45">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-14 20:56:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[vigente o suspendido]]></commentInRDBMS>
+<generatorID>1DFCC3D6-964B-DC71-7C67-203F6EF6F260</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cant_cuotas" id="5A9BEDA7-9A05-C599-4BFA-2B995D76BB3F">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-14 20:56:55 UTC</createdTime>
+<generatorID>551A5360-FF29-D89C-2CF1-229288BF30DC</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLIENTES_rut_cliente" id="A2C2E900-FAC2-844E-7868-8230AB930278">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-14 20:56:55 UTC</createdTime>
+<generatorID>0E818168-01E1-4870-3E87-064766AB855F</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FDFABEB1-77AE-C85A-AAAD-6FBAEE1617DC" referredColumn="FF54E206-59BF-F2A0-9D54-B90ED0754447"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DA47C63D-2B85-43E0-90C5-D58F504ED251" name="CONTRATOS_PK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-14 20:56:55 UTC</createdTime>
+<generatorID>377F5267-362A-1015-7B49-A37E12409F58</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA081CD6-63EB-663C-5D1B-8E824B8AA5F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E642C18-877B-8303-6C77-5C71B2597DF1" name="CONTRATOS__IDX">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-14 20:56:55 UTC</createdTime>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>22EA6263-7293-7A8D-F376-967F7C7CA84A</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="A2C2E900-FAC2-844E-7868-8230AB930278"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A276519-6C18-F727-3703-343EECBFD8A3" name="CONTRATOS_CLIENTES_FK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-14 20:56:55 UTC</createdTime>
+<generatorID>22EA6263-7293-7A8D-F376-967F7C7CA84A</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2C2E900-FAC2-844E-7868-8230AB930278"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

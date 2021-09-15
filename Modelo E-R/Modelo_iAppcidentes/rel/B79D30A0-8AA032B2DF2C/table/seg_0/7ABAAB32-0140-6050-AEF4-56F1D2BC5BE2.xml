@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7ABAAB32-0140-6050-AEF4-56F1D2BC5BE2" name="CHECKLISTS">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-14 20:56:55 UTC</createdTime>
+<generatorID>D10D5839-F530-FA8A-94BB-02234F4BB7B4</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_checklist" id="13CE30F1-529C-5D02-822D-F7F139121713">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-14 20:56:55 UTC</createdTime>
+<generatorID>8DFF6A0A-4AE7-4651-3BB3-FF479B7DD878</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Num_Modificación" id="BC4D5163-6F50-DAFF-152B-F8B80D89CD97">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-14 20:56:55 UTC</createdTime>
+<generatorID>78FAEB36-195C-3CF0-8D60-987CA779460E</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_modif" id="6DF22C60-0B66-491A-C6DF-C93D2420E50F">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-14 20:56:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ultima modificación]]></commentInRDBMS>
+<generatorID>D614FDBF-BB36-BB33-850F-6B095C8146C9</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTRATOS_id_contrato" id="68F7C734-7961-6649-F564-BB71667B1145">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-14 20:56:55 UTC</createdTime>
+<generatorID>ABC9E727-F6F6-E191-5BD8-0CB73CA8A107</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="72A070D5-C272-765E-7CA6-2A54E81905D1" referredColumn="EA081CD6-63EB-663C-5D1B-8E824B8AA5F2"/>
+</associations>
+</Column>
+<Column name="TRABAJADORES_rut_trabajador" id="AB30505C-2D65-26FD-A478-008A44463C41">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-14 20:56:55 UTC</createdTime>
+<generatorID>3BC595EE-B676-6C94-C2DB-8BC5B078F140</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1E4B0C56-D12F-9D34-4B61-143C0EF0A520" referredColumn="188A9033-E1D7-6527-DEEE-03A8C41A8521"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3044FA59-FF46-7858-ADA8-E40BD476BFBA" name="CHECKLISTS_PK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-14 20:56:55 UTC</createdTime>
+<generatorID>A0BFCA3C-410E-A812-F014-71E54F290C0E</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13CE30F1-529C-5D02-822D-F7F139121713"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="895C07F4-B142-6179-1C9D-9258C30CF7E1" name="CHECKLISTS__IDX">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-14 20:56:55 UTC</createdTime>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>87475AC4-A799-60F5-505F-499729F00CF3</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="68F7C734-7961-6649-F564-BB71667B1145"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="93EA3F05-822A-BEAE-0D4E-E10A0C408B10" name="CHECKLISTS_CONTRATOS_FK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-14 20:56:55 UTC</createdTime>
+<generatorID>87475AC4-A799-60F5-505F-499729F00CF3</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68F7C734-7961-6649-F564-BB71667B1145"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5EDEE28D-0AB2-430B-7AAE-FBB5075FA6F2" name="CHECKLISTS_TRABAJADORES_FK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-14 20:56:55 UTC</createdTime>
+<generatorID>113B9BFB-13D1-8055-0E84-1564B65BA923</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB30505C-2D65-26FD-A478-008A44463C41"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

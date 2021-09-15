@@ -3,9 +3,6 @@
 <createdBy>cuent</createdBy>
 <createdTime>2021-09-07 19:02:33 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
-<engineerTo>
-<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -19,22 +16,16 @@
 <createdBy>cuent</createdBy>
 <createdTime>2021-09-07 19:51:55 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
-<engineerTo>
-<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_servicio" id="4BCF7D3F-6299-A4C1-9F03-D927BCD5C17F">
+<Attribute name="id_actividad" id="4BCF7D3F-6299-A4C1-9F03-D927BCD5C17F">
 <createdBy>cuent</createdBy>
 <createdTime>2021-09-07 19:03:06 UTC</createdTime>
 <generatorID>94586957-C78B-C647-D44A-6E976A62B5CA</generatorID>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
-<engineerTo>
-<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
-</engineerTo>
 <referedAttribute>88C789A8-47F7-6977-386D-08B8A34EC057</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -46,9 +37,6 @@
 <createdTime>2021-09-07 19:03:14 UTC</createdTime>
 <generatorID>3F86DB26-A4E8-7CB4-B3B7-89E526ADFE22</generatorID>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
-<engineerTo>
-<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
-</engineerTo>
 <referedAttribute>72AE8E0E-0F8E-5A43-C57F-A44867CE7032</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -61,9 +49,6 @@
 <createdBy>cuent</createdBy>
 <createdTime>2021-09-07 19:52:10 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
-<engineerTo>
-<item key="8FF0CFA9-FBBB-E1D0-D85A-EDFEC2203315" value="true"/>
-</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>95982688-7BDC-CF74-4081-219C155D770F</attributeRef>

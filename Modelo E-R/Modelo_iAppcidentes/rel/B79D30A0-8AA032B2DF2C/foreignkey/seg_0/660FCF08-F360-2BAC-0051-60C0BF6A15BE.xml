@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="660FCF08-F360-2BAC-0051-60C0BF6A15BE" containerWithKeyObject="ED9214C0-9AC1-5AAB-6826-6B0B7A20512F" localFKIndex="D2584EC4-984B-8A6F-1E9F-CD1530E4E671" name="ACTIVIDADES_CHECKLISTS_FK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-14 20:56:55 UTC</createdTime>
+<generatorID>0C2D6CE2-3A20-39A9-7473-02A0422D8724</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<referredTableLongName>CHECKLISTS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7ABAAB32-0140-6050-AEF4-56F1D2BC5BE2</referredTableID>
+<keyObject>3044FA59-FF46-7858-ADA8-E40BD476BFBA</keyObject>
+<referredKeyID>3044FA59-FF46-7858-ADA8-E40BD476BFBA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_checklist</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

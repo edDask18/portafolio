@@ -3,6 +3,9 @@
 <createdBy>cuent</createdBy>
 <createdTime>2021-08-28 19:38:47 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<engineerTo>
+<item key="2073BCD2-ED91-9C4E-D75B-C82605B64094" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -18,6 +21,9 @@
 <createdTime>2021-08-28 22:21:03 UTC</createdTime>
 <commentInRDBMS><![CDATA[Indica si es una capacitación extra o no]]></commentInRDBMS>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<engineerTo>
+<item key="2073BCD2-ED91-9C4E-D75B-C82605B64094" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT006</logicalDatatype>
@@ -29,6 +35,9 @@
 <createdTime>2021-08-30 14:21:50 UTC</createdTime>
 <commentInRDBMS><![CDATA[Trabajadores que asistieron a la capacitación]]></commentInRDBMS>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<engineerTo>
+<item key="2073BCD2-ED91-9C4E-D75B-C82605B64094" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -39,6 +48,9 @@
 <createdBy>Cetecom</createdBy>
 <createdTime>2021-09-09 21:23:35 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<engineerTo>
+<item key="2073BCD2-ED91-9C4E-D75B-C82605B64094" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>

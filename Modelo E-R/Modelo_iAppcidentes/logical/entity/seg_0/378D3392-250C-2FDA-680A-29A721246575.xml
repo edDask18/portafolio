@@ -21,7 +21,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_servicio" id="371020A1-0CF0-F24B-D7D1-331B115ECB97">
+<Attribute name="id_actividad" id="371020A1-0CF0-F24B-D7D1-331B115ECB97">
 <createdBy>cuent</createdBy>
 <createdTime>2021-09-07 19:58:44 UTC</createdTime>
 <generatorID>0B4A87FB-52E1-7860-2963-A3BFBE846E78</generatorID>
@@ -38,6 +38,7 @@
 <generatorID>CF203762-24FA-F42E-BE7C-68AAB451E543</generatorID>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
 <referedAttribute>A27E41FE-FB25-AD0C-6CBC-BB5CA756A8CE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>

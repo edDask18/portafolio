@@ -3,6 +3,9 @@
 <createdBy>cuent</createdBy>
 <createdTime>2021-09-06 19:36:48 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<engineerTo>
+<item key="2073BCD2-ED91-9C4E-D75B-C82605B64094" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -16,6 +19,9 @@
 <createdBy>cuent</createdBy>
 <createdTime>2021-09-07 19:07:11 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<engineerTo>
+<item key="2073BCD2-ED91-9C4E-D75B-C82605B64094" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -25,6 +31,9 @@
 <createdBy>cuent</createdBy>
 <createdTime>2021-09-07 19:07:15 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<engineerTo>
+<item key="2073BCD2-ED91-9C4E-D75B-C82605B64094" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
@@ -35,6 +44,9 @@
 <createdBy>cuent</createdBy>
 <createdTime>2021-09-06 19:51:06 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<engineerTo>
+<item key="2073BCD2-ED91-9C4E-D75B-C82605B64094" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
@@ -45,6 +57,9 @@
 <createdBy>cuent</createdBy>
 <createdTime>2021-09-06 19:51:09 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<engineerTo>
+<item key="2073BCD2-ED91-9C4E-D75B-C82605B64094" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
@@ -55,6 +70,9 @@
 <createdBy>cuent</createdBy>
 <createdTime>2021-09-06 19:51:21 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<engineerTo>
+<item key="2073BCD2-ED91-9C4E-D75B-C82605B64094" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
@@ -65,6 +83,9 @@
 <createdBy>cuent</createdBy>
 <createdTime>2021-09-07 19:07:17 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<engineerTo>
+<item key="2073BCD2-ED91-9C4E-D75B-C82605B64094" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -74,6 +95,9 @@
 <createdBy>cuent</createdBy>
 <createdTime>2021-09-07 19:07:22 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<engineerTo>
+<item key="2073BCD2-ED91-9C4E-D75B-C82605B64094" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
@@ -86,6 +110,10 @@
 <createdBy>cuent</createdBy>
 <createdTime>2021-09-07 19:07:32 UTC</createdTime>
 <ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2073BCD2-ED91-9C4E-D75B-C82605B64094" value="false"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>A7C38EEA-E32C-0AE1-7A53-D2D53AC849D2</attributeRef>
