@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ED2C64E9-6EC9-4391-6D2A-9180BD3B2593" name="CAPACITACIONES">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-22 15:16:00 UTC</createdTime>
+<generatorID>09BB831F-9CE3-39C7-77DD-3D4A0A3C83F6</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_actividad" id="CA28E932-BAB6-178D-AC3D-1327073D2CBA">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-22 15:16:00 UTC</createdTime>
+<generatorID>88C789A8-47F7-6977-386D-08B8A34EC057</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="547C0F50-7E83-80CE-FDD1-DD83DEF31A1A" referredColumn="9BD26643-E1D7-33CA-3A29-A752B099B0E4"/>
+</associations>
+</Column>
+<Column name="extra" id="6A1C7349-D781-1CFC-591E-6FAEBC47ECC9">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-22 15:16:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Indica si es una capacitación extra o no]]></commentInRDBMS>
+<generatorID>0E8D6175-AD56-D994-6184-8F613F71A55D</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cant_participantes" id="3E01F940-014D-59A4-C060-3FCCFFD40428">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-22 15:16:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Trabajadores que asistieron a la capacitación]]></commentInRDBMS>
+<generatorID>0B55B99A-DCF8-033A-889B-B681147E836B</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="materiales" id="69DBFCA7-C68B-A159-77F0-849A2F7A2B72">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-22 15:16:00 UTC</createdTime>
+<generatorID>32A324BA-5597-D54E-6116-A7D513D70410</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9D952578-D294-7BD6-07B0-03B5226E6BB0" name="CAPACITACIONES_PK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-22 15:16:00 UTC</createdTime>
+<generatorID>E8FA2964-43A4-9FB8-6E36-C464703D57AC</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA28E932-BAB6-178D-AC3D-1327073D2CBA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="76E301AE-880A-CEAF-9E7C-E46516A84176" name="CAPACITACIONES_ACTIVIDADES_FK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-22 15:16:00 UTC</createdTime>
+<generatorID>D6B7C5D1-13D8-E5EC-41A9-42F0F4A7502A</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA28E932-BAB6-178D-AC3D-1327073D2CBA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

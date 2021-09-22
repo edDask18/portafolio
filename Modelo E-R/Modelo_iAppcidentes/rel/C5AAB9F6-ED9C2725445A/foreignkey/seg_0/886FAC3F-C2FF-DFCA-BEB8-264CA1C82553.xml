@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="886FAC3F-C2FF-DFCA-BEB8-264CA1C82553" containerWithKeyObject="CB45E378-769D-257E-C643-90424214A7A9" localFKIndex="6BB71229-8045-92EC-FDFE-C52A969A28B7" name="EVENTUALIDADES_MULTAS_MULTAS_FK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-22 15:16:00 UTC</createdTime>
+<generatorID>7806F158-1C6D-0018-BE0D-8827BC142E52</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<referredTableLongName>MULTAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8BBE5F39-D668-E26F-DE5D-E4E56FCC015E</referredTableID>
+<keyObject>33F997AC-7A8A-1195-E119-54D37BFB843E</keyObject>
+<referredKeyID>33F997AC-7A8A-1195-E119-54D37BFB843E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_multa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

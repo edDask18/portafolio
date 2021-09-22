@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="31C4E0A3-AC9F-306D-FE4A-B6AFB8CB8AD9" name="ASESORIAS">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-22 15:16:00 UTC</createdTime>
+<generatorID>31422A14-F684-1611-CFBE-C3F30573B2D0</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_actividad" id="57894FC0-F01F-3D5B-E41B-3297BD82A648">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-22 15:16:00 UTC</createdTime>
+<generatorID>88C789A8-47F7-6977-386D-08B8A34EC057</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0D18A30-2510-5772-5D5D-7F9445513D40" referredColumn="9BD26643-E1D7-33CA-3A29-A752B099B0E4"/>
+</associations>
+</Column>
+<Column name="terreno" id="62382560-FBE0-689A-6686-E9074A5CBA93">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-22 15:16:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Asesoria en Terreno]]></commentInRDBMS>
+<generatorID>9A5E1DD7-BC87-58BB-AB14-4CB9349722C6</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="propuestas" id="099D9C0E-35A7-E4B9-A974-E7840C50AEBF">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-22 15:16:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Propuestas de mejora]]></commentInRDBMS>
+<generatorID>6537300B-5CE4-3A26-3931-7F3EE306BAE5</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="verif_mejoras" id="E1CC71C9-73CD-C2C5-DD4E-4A792C73B411">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-22 15:16:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Verificación de las mejoras]]></commentInRDBMS>
+<generatorID>17817EC6-90A7-DD41-2716-A4E0F63529A0</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ases_telefonica" id="4B44B122-C00D-63A7-5681-3A527E8E32BA">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-22 15:16:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Indica si la asesoria fue telefonica o no]]></commentInRDBMS>
+<generatorID>E35FA2CB-3EDE-E505-84E0-94849387B7E4</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="extra" id="83B1ADD5-6683-37FF-1324-62E33B3D1328">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-22 15:16:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Asesoria extra o fuera de horario en caso de ser telefonica para modificar el cobro]]></commentInRDBMS>
+<generatorID>833E7FF1-AD85-8F1D-53B6-497AB75BA62D</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C2647D48-3EF5-B534-FE66-4F1268946067" name="ASESORIAS_id_actividad_UN">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-22 15:16:00 UTC</createdTime>
+<generatorID>E8FA2964-43A4-9FB8-6E36-C464703D57AC</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57894FC0-F01F-3D5B-E41B-3297BD82A648"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="428FF19B-661D-3294-A8C7-72CEB01F7F08" name="ASESORIAS_ACTIVIDADES_FK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-22 15:16:00 UTC</createdTime>
+<generatorID>59AF1715-AB14-13FD-BA88-724879A7CEEC</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57894FC0-F01F-3D5B-E41B-3297BD82A648"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

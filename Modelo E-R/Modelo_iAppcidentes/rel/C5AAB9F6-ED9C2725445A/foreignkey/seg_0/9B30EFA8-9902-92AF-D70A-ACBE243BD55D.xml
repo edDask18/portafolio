@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9B30EFA8-9902-92AF-D70A-ACBE243BD55D" containerWithKeyObject="A7B5A76D-451A-F75E-8853-3E5C041557FA" localFKIndex="64D7A81B-A3CB-6F54-86E9-2911D1274981" name="CHECKLISTS_TRABAJADORES_FK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-22 15:16:00 UTC</createdTime>
+<generatorID>113B9BFB-13D1-8055-0E84-1564B65BA923</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<referredTableLongName>TRABAJADORES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F3FB1A93-3E1A-CD02-CA73-6EB1F32E6341</referredTableID>
+<keyObject>1D1F029D-D193-003F-7124-755B3870D17B</keyObject>
+<referredKeyID>1D1F029D-D193-003F-7124-755B3870D17B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>rut_trabajador</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

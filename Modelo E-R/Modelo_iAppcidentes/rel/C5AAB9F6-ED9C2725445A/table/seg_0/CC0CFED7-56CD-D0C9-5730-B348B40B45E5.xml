@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CC0CFED7-56CD-D0C9-5730-B348B40B45E5" name="ACCIDENTES_ACCIDENTADOS">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-22 15:16:00 UTC</createdTime>
+<generatorID>7C16FA24-7D7E-47F5-1D6B-15D9F87F189D</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_accidentes_accidentados" id="08FEDAB4-2390-4905-B8B7-9E37085362B6">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-22 15:16:00 UTC</createdTime>
+<generatorID>3A0509F6-6D63-626E-FC3E-DCA8B7459CCF</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACCIDENTES_id_eventualidad" id="8B3E54E1-D145-D07E-F7E9-69F94B34806F">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-22 15:16:00 UTC</createdTime>
+<generatorID>5B1C0875-6029-9918-02DA-C6B515D42590</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0FEB5D54-B26A-F952-B980-EBEF218715AB" referredColumn="E666739A-8A88-209F-7FBE-97AEC7382F20"/>
+</associations>
+</Column>
+<Column name="ACCIDENTADOS_rut_accidentado" id="2800E88E-4231-2F1C-3A64-1EF30FA54010">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-22 15:16:00 UTC</createdTime>
+<generatorID>9D077283-A5F9-0487-7AF6-2C359CB3B40C</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0C626DDD-CF8F-B3F6-2609-B8636757B4E1" referredColumn="562D529E-B4EF-9AFC-E2A0-C12EA6850BB5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F56B69CC-0BB9-9603-CD7F-2FFD5445C345" name="ACCIDENTES_ACCIDENTADOS_PK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-22 15:16:00 UTC</createdTime>
+<generatorID>9E4B94F6-05CC-FCC7-51A5-73843CC839BE</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08FEDAB4-2390-4905-B8B7-9E37085362B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="917DBA67-2360-780D-08C3-B399284355C1" name="ACCIDENTES_ACCIDENTADOS_ACCIDENTES_FK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-22 15:16:00 UTC</createdTime>
+<generatorID>6ABF6039-8193-CFD3-0AFA-BE62B0E40441</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B3E54E1-D145-D07E-F7E9-69F94B34806F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F1D61761-4E05-7BC1-7E5C-60062596CDD0" name="ACCIDENTES_ACCIDENTADOS_ACCIDENTADOS_FK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-22 15:16:00 UTC</createdTime>
+<generatorID>374A763B-F919-FF0E-7CBD-886526238682</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2800E88E-4231-2F1C-3A64-1EF30FA54010"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

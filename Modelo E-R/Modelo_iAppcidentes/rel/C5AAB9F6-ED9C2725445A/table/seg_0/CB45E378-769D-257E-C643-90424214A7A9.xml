@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CB45E378-769D-257E-C643-90424214A7A9" name="EVENTUALIDADES_MULTAS">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-22 15:16:00 UTC</createdTime>
+<generatorID>B8699037-FD77-716D-3425-18DBA3FB3864</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_event_multas" id="3D68D879-F6C1-84C5-B93C-350167E24637">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-22 15:16:00 UTC</createdTime>
+<generatorID>CBBA83EB-E746-5B90-E50E-D1D1E2DAE0B3</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EVENTUALIDADES_id_eventualidad" id="4804866D-6454-5181-EDCA-6EBC8559AF44">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-22 15:16:00 UTC</createdTime>
+<generatorID>2708350F-9E91-D9A5-71D7-3DC813051EEF</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7218C35D-3122-4EE9-A5AF-488752F6DBEE" referredColumn="03DD4E72-3746-87F2-6784-F879AC01FE34"/>
+</associations>
+</Column>
+<Column name="MULTAS_id_multa" id="69ED8960-0C6E-4431-87DD-BB0FCEE18FB0">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-22 15:16:00 UTC</createdTime>
+<generatorID>C11B0821-B93F-DE59-4427-98837516C59E</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="886FAC3F-C2FF-DFCA-BEB8-264CA1C82553" referredColumn="733F82FF-EFA8-BF61-476A-94E5BF5C1110"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2E8E1B43-FAE9-4353-D68D-65CE1C55B6D2" name="EVENTUALIDADES_MULTAS_PK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-22 15:16:00 UTC</createdTime>
+<generatorID>3B9C7C24-8CE3-B009-A80D-8EF1F44CD650</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D68D879-F6C1-84C5-B93C-350167E24637"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="834E7739-3650-43DF-BE41-9410D175C6EE" name="EVENTUALIDADES_MULTAS_EVENTUALIDADES_FK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-22 15:16:00 UTC</createdTime>
+<generatorID>8EA391F7-995D-E317-34A8-26FAF8F3D7AD</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4804866D-6454-5181-EDCA-6EBC8559AF44"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6BB71229-8045-92EC-FDFE-C52A969A28B7" name="EVENTUALIDADES_MULTAS_MULTAS_FK">
+<createdBy>cuent</createdBy>
+<createdTime>2021-09-22 15:16:00 UTC</createdTime>
+<generatorID>7806F158-1C6D-0018-BE0D-8827BC142E52</generatorID>
+<ownerDesignName>Modelo_iAppcidentes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69ED8960-0C6E-4431-87DD-BB0FCEE18FB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
